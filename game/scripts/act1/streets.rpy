@@ -1,0 +1,83 @@
+label news_raining:
+    scene black_full
+
+    play music street_rain volume 0.5
+
+    centered "2028, Thursday, 1 p.m - London (United Kingdom)"
+
+    scene london_1
+
+    "Unlike the crowd around you who walks their way to their work, the rain catches you unprepared."
+
+    "To avoid the rain, you stop at small coffe store nearby."
+
+    play sound door_bell volume 0.3
+
+    scene coffe_1 with dissolve
+
+    "As you sit, you think with yourself how you will avoid being late this time if the rain doesn't stop in the next 30 minutes. But quickly, your attention turns to the television near you"
+
+    "Presenter" "Yesterday we marked the last day of the 36th anniversary event of Guardian's Call! One of the first organizations to rise and fight against the elemental beasts that returned during the Cold War."
+    "Presenter" "I remind you once again that if it weren't for Guardian Call, and all others organizations that was created to confront such atrocities, we wouldn't have lasted another year after the rifts were reopened and all the elemental danger returned to our world."
+    "Presenter" "From the powers of the creatures, we are able to defeat the monsters, even after the destruction of all the temples."
+    "Presenter" "If you get yourself in danger or spot any evil beast, remember to call the emergencial number. Members will come as fast as possible to aid you."
+
+    scene black_full
+
+    centered "You keep your attention on what comes next. It's a show with various elemental powers and in the middle of the stage is Abo, a famous japanese singer, which you like a lot. "
+    centered "The music remembers you of a Japanese person, in this case, your own internship supervisor, Reiko Rikumi. The one who offered you a position as an elemental hunter inside Guardian Call when she discovered your affinity for elemental powers."
+
+    scene coffe_1 with dissolve
+    play sound door_bell volume 0.3
+
+    menu:
+        "She is so beautiful":
+            "???" "Am I? Well... I am glad you think so, [player]."
+            show rikumi_base2 at size_normal
+            player "Reiko! Sorry! I thought aloud without realizing it."
+            c_rikumi "Don't worry."
+
+        "Reiko is quite serious, sometimes I feel afraid.":
+            "???" "Really? I am really sorry, I will consider this next time."
+            show rikumi_serious2 at size_normal
+            player "I am sorry Miss Reiko! Please forget what I said."
+            c_rikumi "Don't worry. I like listening to my employees feedbacks"
+
+        "It's time to go... Avoiding being late is not a option anymore.":
+            play sound hit volume 0.3
+            "???" "Oh! What a finding."
+            show rikumi_base1 at size_normal
+
+    show rikumi_serious2 at size_normal
+    c_rikumi "It's already 1:32 PM. Something happened?"
+
+    hide rikumi_base1 
+    hide rikumi_base2 
+    hide rikumi_serious2
+    show rikumi_base1 at size_normal
+
+    player "I forgot my umbrella, the skies was so beautiful this morning that raining never crossed my mind..."
+
+    c_rikumi "Since it is your first time being late, I will let it slide."
+    
+    show rikumi_base2 at size_normal
+   
+    c_rikumi "So. Come with me, I can give you a ride. I will just get a coffe."
+
+    scene black_full
+
+    centered "Your boss's good self-esteem helps you go to work today."
+
+    play sound door_bell volume 0.3
+
+    scene car1 with dissolve
+
+    c_rikumi "So let's get going. My car is over there."
+
+    show rikumi_eyes_closed at size_normal
+
+    c_rikumi "Let's see if those two didn't destroy anything. It turns into a mess evertime they are alone."
+
+    show rikumi_base1 at size_normal
+
+    c_rikumi "Oh.. Just to spoiler you a little, today you will be having your first RANK A mission."
