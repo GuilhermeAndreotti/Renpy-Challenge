@@ -559,7 +559,7 @@ translate None strings:
 
     # renpy/common/00library.rpy:344
     old "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
-    new "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
+    new "This VN is a project made with Ren'Py and Python. The goal is to create a full story with a beginning to an end. All the source material must be original but it can be edited from other sources, except for the music, which must be copyright-free. This project is entirely for self-learning without any goal to gain money. "
 
     # renpy/common/00preferences.rpy:295
     old "display"
