@@ -46,6 +46,4 @@ label character_name:
 
     c_rikumi "Welcome to Guardian's Call dear [player]. Like I said, starting today, I will be your boss and you will be joining the team that I take care of, which is TEAM B."
 
-
-
     jump news_raining

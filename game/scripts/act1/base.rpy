@@ -101,7 +101,7 @@ label base:
     else:
         c_rikumi "I want to try something new for this mission."
 
-    c_rikumi "[player], I want you to choose Frederick or Olivia to go with you to buy me a iced coffe at the entrance with this money, but from the vending machine with only drinks, and I want the group to tell me a vending machines's characteristic after."
+    c_rikumi "[player], I want you to choose Frederick or Olivia to go with you to buy me an iced coffe at the entrance with this money, but from the vending machine with only drinks, and I want the group to tell me a vending machine characteristic after."
 
     c_rikumi "The other one will help me getting the amulets."
 
@@ -137,7 +137,6 @@ label base:
 
 label mission:
     scene training1 with dissolve
-    play music base volume 0.3
 
     show rikumi_base2 at size_normal
 
@@ -154,7 +153,7 @@ label mission:
         show frederick_base1 at left_normal
         c_fred "Huh. You asked for the iced coffe.. so..."
         menu:
-            "Fred and I noticed the [keyword_fred] types of vending machines. It can be even further than just the two we saw.":
+            "Fred and I noticed the [keyword_fred] types of vending machines. It can be even further than just the two we saw. But they all share the money part in common.":
                 $ success = 1
             "The beverage machine is focused on beverages.":
                 $ success = 0
@@ -197,9 +196,9 @@ label mission:
     hide rikumi_eyes_closed
     show rikumi_serious2 at size_normal
 
-    c_rikumi "The Engo-ji sent some of their hunters, but unfortunately none of them returned and since the stronger ones are currently in Tokyo, dealing with a creature called Mayoraga."
+    c_rikumi "Engo-ji was about to send its powerful members on this mission, but due to the initial partnership between the United Kingdom and Japan, Guardian Call decided to take on this mission to strengthen the good relationship."
 
-    c_rikumi "They asked help from a friend organization, in this case, us, the Guardian Call."
+    c_rikumi "Since most members are dealing with a strong creature in Tokyo, called Sukura."
 
     hide rikumi_serious2
     show rikumi_base1 at size_normal
@@ -212,12 +211,12 @@ label mission:
     c_rikumi "Both the void and the aether element are in fact rare signatures we don't see often. So that is why the mission is qualified as RANK A."
 
     hide rikumi_serious2
-    show frederick_base1 at size_normal
+    show frederick_base2 at size_normal
     c_fred "You said all the inforamtion and that it's happening inside that park, but my question is, where are the elementals in that park? Don't tell me..."
 
-    hide frederick_base1
+    hide frederick_base2
     show rikumi_base2 at size_normal
-    c_rikumi "Yes. Mostly possed the vending machines there."
+    c_rikumi "Yes. Mostly possed the vending machines there. And since the place gained new vending machines corridors after 2024, it's not that small anymore."
 
     player "Am I really included for this mission, boss? I can't even fight that well. Both Olivia and Fred are way stronger than me."
 
@@ -280,6 +279,7 @@ label mission:
     c_rikumi "Well. Stay ready everyone, train a little, we are departing in the next 2 hours."
 
     scene black_full
+    stop music
 
     centered "You, Frederick, and Olivia train under Reiko's supervision, learning some new skills from the amulets."
 
@@ -293,3 +293,5 @@ label mission:
         centered "You try asking Olivia's help, she then says a bunch of nonsense, which makes you even more confused, but at least you notice that water is very versatile."
 
     centered "ACT 1 - DONE. VERY OBRIGADO."
+
+    jump travel

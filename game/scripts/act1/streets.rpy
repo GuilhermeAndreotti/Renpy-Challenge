@@ -67,7 +67,7 @@ label news_raining:
     hide rikumi_base1
     show rikumi_base2 at size_normal
    
-    c_rikumi "Come with me, I can give you a ride. Just let me grab a coffe. Oh yeah, take this umbrella for you."
+    c_rikumi "Come with me, I can give you a ride. Just let me grab a coffe and here, take this umbrella for you, it's a gift."
 
     scene black_full
 
@@ -126,7 +126,7 @@ label news_raining:
 
         "Probably water. I like how it can both heal and attack.":
             $ main_element = 'water'
-            c_rikumi "I was about to say that Olivia could help you but to be honest, I am pretty sure she can't, yet."
+            c_rikumi "I was about to say that Olivia could help you but to be honest, I am pretty sure it will be somewhat complicated."
 
     c_rikumi "Well... if [main_element] is your choice. I have something in mind."
 

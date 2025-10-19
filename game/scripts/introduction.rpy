@@ -28,7 +28,7 @@ label introduction:
 
     scene intro_3 with dissolve
 
-    centered "The elemental creatures, they need mana to survive. And the most natural way was through the conversion of the human soul."
+    centered "{color=#0000ff}The elemental creatures, they need mana to survive. And the most natural way was through the conversion of the human soul.{/color}"
 
     scene black_full
 
