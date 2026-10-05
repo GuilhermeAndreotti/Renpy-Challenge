@@ -10,7 +10,7 @@ translate portuguese character_name_5791fc91:
 translate portuguese character_name_248c0a3d:
 
     # c_rikumi "Great. Just write your name here and you will become an official member of Guardian Call."
-    c_rikumi "Ótimo! Agoara para terminarmos, apenas escreve seu nome aqui e você se tornará um membro oficial da Guardian Call."
+    c_rikumi "Ótimo! Agora, para terminarmos, apenas escreve seu nome aqui e você se tornará um membro oficial da Guardian Call."
 
 # game/script.rpy:47
 translate portuguese character_name_159711c8:

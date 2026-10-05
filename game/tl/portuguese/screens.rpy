@@ -333,3 +333,7 @@ translate portuguese strings:
     # game/screens.rpy:1536
     old "Menu"
     new "Menu"
+
+    # game/screens.rpy:755
+    old "Language"
+    new "Idioma"
