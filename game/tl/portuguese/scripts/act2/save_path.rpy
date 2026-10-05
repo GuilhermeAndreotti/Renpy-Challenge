@@ -573,3 +573,19 @@ translate portuguese strings:
     # game/scripts/act2/save_path.rpy:154
     old "Use your knowledge you learned before and attack its weak spots!"
     new "Use o conhecimento que aprendeu antes e ataque seus pontos fracos!"
+
+    # game/scripts/act2/save_path.rpy:9
+    old "{color=#008000}Party HP:{/color} [party]/[90]"
+    new "{color=#008000}PV do Grupo:{/color} [party]/[90]"
+
+    # game/scripts/act2/save_path.rpy:11
+    old "{color=#008000}Earth Machine:{/color} [hpearth if hpearth > 0 else 0]/30"
+    new "{color=#008000}Máquina de Terra:{/color} [hpearth if hpearth > 0 else 0]/30"
+
+    # game/scripts/act2/save_path.rpy:12
+    old "{color=#f00}Fire Machine:{/color} [hpfire if hpfire > 0 else 0]/20"
+    new "{color=#f00}Máquina de Fogo:{/color} [hpfire if hpfire > 0 else 0]/20"
+
+    # game/scripts/act2/save_path.rpy:13
+    old "{color=#0000ff}Water Machine:{/color} [hpwater if hpwater > 0 else 0]/30"
+    new "{color=#0000ff}Máquina de Água:{/color} [hpwater if hpwater > 0 else 0]/30"

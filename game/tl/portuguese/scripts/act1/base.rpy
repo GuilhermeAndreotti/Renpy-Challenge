@@ -129,9 +129,9 @@ translate portuguese base_0734e41f:
     c_rikumi "Quero tentar algo novo para essa missão."
 
 # game/scripts/act1/base.rpy:104
-translate portuguese base_624b99bb:
+translate portuguese base_3d5a18e2:
 
-    # c_rikumi "[player], I want you to choose Frederick or Olivia to go with you to buy me an iced coffe at the entrance with this money, but from the vending machine with only drinks, and I want the group to tell me a vending machine characteristic after."
+    # c_rikumi "[player], choose either Frederick or Olivia to go with you and buy me an iced coffee at the entrance with this money. Make sure to use the drink-only vending machine. After that, I want the group to tell me one characteristic of the vending machine."
     c_rikumi "[player], escolha Frederick ou Olivia para ir com você comprar um café gelado na entrada com este dinheiro. Certifique-se de usar a máquina de venda automática que só tem bebidas. Depois disso, quero que o grupo me diga uma característica dessa mesma máquina."
 
 # game/scripts/act1/base.rpy:106

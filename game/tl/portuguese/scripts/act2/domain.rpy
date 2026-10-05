@@ -631,3 +631,11 @@ translate portuguese strings:
     # game/scripts/act2/domain.rpy:229
     old "{color=#ff0000}Special Frederick{/color}: Fire Flaming Slash"
     new "{color=#ff0000}Especial Frederick{/color}: Corte Chamas de Fogo"
+
+    # game/scripts/act2/domain.rpy:114
+    old "{color=#008000}Party HP:{/color} [partyhp if partyhp > 0 else 0]/[200]"
+    new "{color=#008000}PV do Grupo:{/color} [partyhp if partyhp > 0 else 0]/[200]"
+
+    # game/scripts/act2/domain.rpy:116
+    old "{color=#FFFFFF}The Quintessence Creature:{/color} [bosshp if bosshp > 0 else 0]/[300 if domain <= 2 else 260]"
+    new "{color=#FFFFFF}A Criatura da Quintessência:{/color} [bosshp if bosshp > 0 else 0]/[300 if domain <= 2 else 260]"
