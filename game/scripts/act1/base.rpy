@@ -101,7 +101,7 @@ label base:
     else:
         c_rikumi "I want to try something new for this mission."
 
-    c_rikumi "[player], I want you to choose Frederick or Olivia to go with you to buy me an iced coffe at the entrance with this money, but from the vending machine with only drinks, and I want the group to tell me a vending machine characteristic after."
+    c_rikumi "[player], choose either Frederick or Olivia to go with you and buy me an iced coffee at the entrance with this money. Make sure to use the drink-only vending machine. After that, I want the group to tell me one characteristic of the vending machine."
 
     c_rikumi "The other one will help me getting the amulets."
 
