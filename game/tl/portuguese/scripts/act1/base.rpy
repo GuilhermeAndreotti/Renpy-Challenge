@@ -39,15 +39,15 @@ translate portuguese base_746c3e4c:
     centered "Quando Reiko se aproxima, o chão começa a tremer e um pilar de pedra surge entre eles, encerrando a briga."
 
 # game/scripts/act1/base.rpy:50
-translate portuguese base_45c92048:
+translate portuguese base_b2713a3e:
 
-    # "???" "BOSS! It's not my fault! HE STOLE MY DELICIOUS LEMON TASTED WATER!!"
+    # "???" "BOSS! It's not my fault! HE STOLE MY DELICIOUS LEMON-FLAVORED WATER!!"
     "???" "CHEFE EU JURO QUE NÃO É MINHA CULPA! ELE ROUBOU MINHA ÁGUA SABOR LIMÃO E EU TIVE QUE REAGIR!"
 
 # game/scripts/act1/base.rpy:55
-translate portuguese base_676c8f9e:
+translate portuguese base_f41ec1bc:
 
-    # "???" "I DID NOT! Your freaking water elemental! I took your bottle out of the refrigerator to get my food but you attacked me the moment I took it out! Damn."
+    # "???" "I DID NOT! You freaking water elemental! I took your bottle out of the refrigerator to get my food but you attacked me the moment I took it out! Damn."
     "???" "EU JÁ FALEI QUE NÃO ERA ISSO! Seu elemental de água burro! Eu só tirei sua garrafa da geladeira pra pegar minha comida, mas você me atacou na hora que eu fiz isso!"
 
 # game/scripts/act1/base.rpy:59
@@ -63,15 +63,15 @@ translate portuguese base_60d1cf4b:
     c_fred "Eai garoto. É ótimo ver alguém normal como eu aqui."
 
 # game/scripts/act1/base.rpy:67
-translate portuguese base_9cbaa8d6:
+translate portuguese base_99c9e268:
 
-    # c_olivia "LOW RANK HUMAN. Kill this person while he sleeps, It's a order from your superior."
+    # c_olivia "LOW RANK HUMAN. Kill this person while he sleeps, It's an order from your superior."
     c_olivia "ESTAGIÁRIO! Sua superior ondena que você mate ele enquanto ele dorme!"
 
 # game/scripts/act1/base.rpy:72
-translate portuguese base_2f8ab7d3:
+translate portuguese base_6d0cab43:
 
-    # c_rikumi "So, everyone, time to stop. I need you all to pay attettion to me. The HQ sent us a new mission, in fact, the first outside United Kingdom."
+    # c_rikumi "So, everyone, time to stop. I need you all to pay attention to me. The HQ sent us a new mission, in fact, the first outside the United Kingdom."
     c_rikumi "Ok pessoal, é hora de trabalhar. Preciso que todos prestem atenção. A sede nos enviou uma nova missão, na verdade, a primeira fora do Reino Unido."
 
 # game/scripts/act1/base.rpy:74
@@ -129,15 +129,15 @@ translate portuguese base_0734e41f:
     c_rikumi "Quero tentar algo novo para essa missão."
 
 # game/scripts/act1/base.rpy:104
-translate portuguese base_624b99bb:
+translate portuguese base_3d5a18e2:
 
-    # c_rikumi "[player], I want you to choose Frederick or Olivia to go with you to buy me an iced coffe at the entrance with this money, but from the vending machine with only drinks, and I want the group to tell me a vending machine characteristic after."
+    # c_rikumi "[player], choose either Frederick or Olivia to go with you and buy me an iced coffee at the entrance with this money. Make sure to use the drink-only vending machine. After that, I want the group to tell me one characteristic of the vending machine."
     c_rikumi "[player], escolha Frederick ou Olivia para ir com você comprar um café gelado na entrada com este dinheiro. Certifique-se de usar a máquina de venda automática que só tem bebidas. Depois disso, quero que o grupo me diga uma característica dessa mesma máquina."
 
 # game/scripts/act1/base.rpy:106
-translate portuguese base_f009ec9c:
+translate portuguese base_0533cccf:
 
-    # c_rikumi "The other one will help me getting the amulets."
+    # c_rikumi "The other one will help me get the amulets."
     c_rikumi "O outro vai me ajudar a pegar os amuletos."
 
 translate portuguese base_d0ade82b:
@@ -165,14 +165,14 @@ translate portuguese base_72194856:
     # c_olivia "Alright human, BUT I AM leading the way."
     c_olivia "Tudo bem, humano, MAS QUEM VAI NA FRENTE SOU EU."
 
-translate portuguese mission_d8645104:
+translate portuguese mission_7aa7bea9:
 
-    # c_rikumi "Wellcome back, we already selected the amulets for this mission, what about you two?"
+    # c_rikumi "Welcome back, we already selected the amulets for this mission, what about you two?"
     c_rikumi "Bem-vindos de volta, nós já escolhemos os amuletos para esta missão, e vocês dois?"
 
-translate portuguese mission_1b37ae77:
+translate portuguese mission_55003c03:
 
-    # player "Here your iced coffe, Miss Reiko."
+    # player "Here is your iced coffee, Miss Reiko."
     player "Aqui está seu café gelado, senhorita Reiko."
 
 translate portuguese mission_d5b091e4:
@@ -180,9 +180,9 @@ translate portuguese mission_d5b091e4:
     # c_rikumi "Thank you, [player]! So go on, tell me what you two noticed there."
     c_rikumi "Obrigada, [player]! Então, contem-me o que vocês dois notaram lá."
 
-translate portuguese mission_eb827e54:
+translate portuguese mission_96cca5d4:
 
-    # c_fred "Huh. You asked for the iced coffe.. so..."
+    # c_fred "Huh. You asked for the iced coffee.. so..."
     c_fred "Hã. Você pediu o café gelado... então..."
 
 translate portuguese mission_d3d6ed3c:
@@ -200,9 +200,9 @@ translate portuguese mission_e93251d3:
     # c_rikumi "What you said makes sense, but unfortunately it doesn't matter much for the mission"
     c_rikumi "O que você disse faz sentido, mas infelizmente não tem muita relevância para a missão."
 
-translate portuguese mission_75e6627e:
+translate portuguese mission_6b482a1b:
 
-    # c_rikumi "Well. I asked this because the place we are going in Japan is Sagamihara's city. Specially the Sagamihara Retoro Jihanki, which translates for Sagamihara Vending Machine Park."
+    # c_rikumi "Well. I asked this because the place we are going in Japan is the city of Sagamihara. Especially the Sagamihara Retoro Jihanki, which translates to Sagamihara Vending Machine Park."
     c_rikumi "Bem, perguntei isso porque o lugar para onde estamos indo no Japão é a cidade de Sagamihara. Especificamente o Sagamihara Retoro Jihanki, que significa Parque das Máquinas de Venda de Sagamihara."
 
 translate portuguese mission_99bf2109:
@@ -230,9 +230,9 @@ translate portuguese mission_7964a382:
     # c_rikumi "Since most members are dealing with a strong creature in Tokyo, called Sukura."
     c_rikumi "Já que a maioria dos membros está lidando com uma criatura poderosa em Tóquio, chamada Sukura."
 
-translate portuguese mission_d282e219:
+translate portuguese mission_32093e6b:
 
-    # c_rikumi "Team A was supposed to get this mission completly but after some events, the mission fell into our hands with Team A being there if necessary."
+    # c_rikumi "Team A was supposed to get this mission completely but after some events, the mission fell into our hands with Team A being there if necessary."
     c_rikumi "O Time A deveria cuidar completamente dessa missão, mas depois de alguns eventos, ela acabou caindo em nossas mãos, com o Time A de apoio caso seja necessário."
 
 translate portuguese mission_e4b7ece9:
@@ -240,14 +240,14 @@ translate portuguese mission_e4b7ece9:
     # c_rikumi "Both the void and the aether element are in fact rare signatures we don't see often. So that is why the mission is qualified as RANK A."
     c_rikumi "Tanto o elemento do vazio quanto o do éter são assinaturas raras que quase nunca vemos. Por isso, a missão é classificada como RANK A."
 
-translate portuguese mission_676b7295:
+translate portuguese mission_50bf2e00:
 
-    # c_fred "You said all the inforamtion and that it's happening inside that park, but my question is, where are the elementals in that park? Don't tell me..."
+    # c_fred "You said all the information and that it's happening inside that park, but my question is, where are the elementals in that park? Don't tell me..."
     c_fred "Você disse tudo isso e que está acontecendo dentro do parque, mas minha pergunta é: onde estão os elementais nesse parque? Não me diga que..."
 
-translate portuguese mission_84bf6458:
+translate portuguese mission_61555e59:
 
-    # c_rikumi "Yes. Mostly possed the vending machines there. And since the place gained new vending machines corridors after 2024, it's not that small anymore."
+    # c_rikumi "Yes. Mostly possessed the vending machines there. And since the place gained new vending machines corridors after 2024, it's not that small anymore."
     c_rikumi "Sim. A maioria possuiu as máquinas de venda do local. E como o lugar ganhou novos corredores de máquinas depois de 2024, ele já não é mais tão pequeno."
 
 translate portuguese mission_b8c87610:
@@ -285,9 +285,9 @@ translate portuguese mission_d69f71d9:
     # c_fred "A duck with fire powers? That is different. Well. Thank you."
     c_fred "Um pato com poderes de fogo? Isso é diferente. Bem, obrigado."
 
-translate portuguese mission_990426e8:
+translate portuguese mission_f27aa117:
 
-    # c_rikumi "And I must advice you, Mister Frederick. Just use your white katana as a last resource."
+    # c_rikumi "And I must advise you, Mister Frederick. Just use your white katana as a last resource."
     c_rikumi "E devo te avisar, senhor Frederick. Use sua katana branca apenas como último recurso."
 
 translate portuguese mission_16acdaf3:
@@ -300,9 +300,9 @@ translate portuguese mission_1525f18c:
     # c_rikumi "As for you [player], as you picked before, I have this one for you."
     c_rikumi "Quanto a você, [player], como escolheu antes, eu tenho este aqui pra você."
 
-translate portuguese mission_f287856f:
+translate portuguese mission_89ce6fae:
 
-    # c_rikumi "A amulet related with the [main_element]. Hope you use it well."
+    # c_rikumi "An amulet related with the [main_element]. Hope you use it well."
     c_rikumi "Um amuleto relacionado ao elemento [main_element]. Espero que use bem."
 
 translate portuguese mission_9ccb1a80:

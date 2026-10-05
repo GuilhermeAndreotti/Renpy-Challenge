@@ -1,25 +1,25 @@
 label first:
         scene black_full
 
-        centered "2028, Friday, 12 p.m - Sagamihara's City (Japan)"
+        centered "2028, Friday, 12 p.m - Sagamihara City (Japan)"
 
         scene plane2 with dissolve
 
         show guard at size_normal
 
-        "Guard" "(Saying words in japanese which you can't understand nothing)"
+        "Guard" "(Saying words in Japanese which you can't understand at all)"
 
         show frederick_base2 at left_normal
 
-        c_fred "Hey boss! Gimme a help here, I can't understand nothing he is saying."
+        c_fred "Hey boss! Gimme a hand here, I can't understand anything he is saying."
 
         hide frederick_base2
  
         show rikumi_base1 at left_normal
 
-        c_rikumi "Haha, alright. (Start saying in japanese things you can't also understand)"
+        c_rikumi "Haha, alright. (Starts saying things in Japanese that you also can't understand)"
 
-        "Guard" "(Japanese words, thank you guardian call!!)"
+        "Guard" "(Japanese words, thank you Guardian Call!!)"
 
         hide guard
         hide rikumi_base1
@@ -44,7 +44,7 @@ label first:
 
         c_olivia "What did you call me?!"
 
-        player "Common guys, let's get going."
+        player "Come on, guys, let's get going."
 
         scene saga1 with dissolve
 
@@ -57,7 +57,7 @@ label first:
         hide rikumi_base1
         show olivia_base1 at size_normal
 
-        c_olivia "I wonder why my brothers are inside vending machines while they can just become humans and enjoy a easy life like mine."
+        c_olivia "I wonder why my brothers are inside vending machines while they can just become humans and enjoy an easy life like mine."
 
         player "Hey Olivia, It might be a weird question. Do you like-- I mean... killing your 'brothers'?"
 
@@ -73,7 +73,7 @@ label first:
 
         show rikumi_base1 at right_normal
 
-        c_rikumi "Please, I recommend to not start a fight right here, Olivia."
+        c_rikumi "Please, I recommend that you not start a fight right here, Olivia."
 
         c_olivia "But HE O-- Alright."
 
@@ -101,7 +101,7 @@ label first:
 
         c_rikumi "That said, I will be constantly testing you all, your decisions and the battles. But rest assured, if necessary, I will also help."
 
-        c_rikumi "Also rest assured if you all pass, [player] will be hired early, and you all will get a well good pay rise. And these amulets will become yours."
+        c_rikumi "Also rest assured if you all pass, [player] will be hired early, and you all will get a very good pay rise. And these amulets will become yours."
 
         c_rikumi "And you, Olivia, may consume a strong water elemental amulet that I got recently."
 
@@ -114,7 +114,7 @@ label first:
         hide olivia_base1
         show olivia_base2 at size_normal
 
-        c_olivia "COMMON EVERYONE, IT IS TIME TO GET SERIOUS."
+        c_olivia "COME ON, EVERYONE, IT IS TIME TO GET SERIOUS."
 
         show frederick_base1 at left_normal
 

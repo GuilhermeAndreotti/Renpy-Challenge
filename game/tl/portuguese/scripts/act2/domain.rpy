@@ -7,9 +7,9 @@ translate portuguese domain_9daecc6a:
     player "Fiquem alertas, todos."
 
 # game/scripts/act2/domain.rpy:11
-translate portuguese domain_d3d7ed2c:
+translate portuguese domain_206fd21e:
 
-    # c_olivia "I can't saw nothing here. But the energy is one of the strongest I ever felt. You! [player]! Begin the process!"
+    # c_olivia "I can't see anything here. But the energy is one of the strongest I ever felt. You! [player]! Begin the process!"
     c_olivia "Não consigo ver nada aqui. Mas a energia é uma das mais fortes que já senti. Você! [player]! Comece o processo!"
 
 # game/scripts/act2/domain.rpy:15
@@ -19,15 +19,15 @@ translate portuguese domain_ac386385:
     c_olivia "Resolveu aparecer, é? VAMOS!"
 
 # game/scripts/act2/domain.rpy:19
-translate portuguese domain_dab94320:
+translate portuguese domain_760533d7:
 
-    # c_fred "Pal, good luck! We are couting with you!"
+    # c_fred "Pal, good luck! We are counting with you!"
     c_fred "Cara, boa sorte! Estamos contando com você!"
 
 # game/scripts/act2/domain.rpy:21
-translate portuguese domain_a8752d96:
+translate portuguese domain_b2eafbcc:
 
-    # "While you are focusing on breaking the domain, both Frederick and Olivia advances to attack the vending machine, thinking it was the Aether Creature but... the vending machine just breaks normally."
+    # "While you are focusing on breaking the domain, both Frederick and Olivia advance to attack the vending machine, thinking it was the Aether Creature but... the vending machine just breaks normally."
     "Enquanto você se concentra em quebrar o domínio, Frederick e Olivia avançam para atacar a máquina de venda, pensando que era a Criatura Éter, mas... a máquina simplesmente quebra normalmente."
 
 # game/scripts/act2/domain.rpy:27
@@ -37,15 +37,15 @@ translate portuguese domain_f97164da:
     c_olivia "O quê?"
 
 # game/scripts/act2/domain.rpy:29
-translate portuguese domain_6d681ed2:
+translate portuguese domain_3579d887:
 
-    # "A mysterious vending machine appears behind you. You try protecing yourself but nothing happened, it just stays as a regular vending machine."
+    # "A mysterious vending machine appears behind you. You try protecting yourself but nothing happened, it just stays as a regular vending machine."
     "Uma misteriosa máquina de venda aparece atrás de você. Você tenta se proteger, mas nada acontece, ela simplesmente fica ali como uma máquina comum."
 
 # game/scripts/act2/domain.rpy:35
-translate portuguese domain_29cd2f57:
+translate portuguese domain_b28d477a:
 
-    # "It remains there, mysterious enough the enter the theme Mami selected."
+    # "It remains there, mysterious enough to fit the theme Mami selected."
     "Ela permanece ali, misteriosa o suficiente para entrar no tema que Mami escolheu."
 
 # game/scripts/act2/domain.rpy:40
@@ -127,9 +127,9 @@ translate portuguese domain_47922783:
     "Máquina de Venda Comum" "-.-- --- ..- / .-- .. .-.. .-.. / -. . ...- . .-. / ... - --- .--. / --- ..- .-. / .-.. --- .-. -.. .-.-.-"
 
 # game/scripts/act2/domain.rpy:97
-translate portuguese domain_a0a8dd13:
+translate portuguese domain_0a3961ba:
 
-    # "After everthing what happened so far, the mysterios vending machine begins to tranform itself."
+    # "After everything that happened so far, the mysterious vending machine begins to transform itself."
     "Após tudo o que aconteceu até agora, a misteriosa máquina de venda começa a se transformar."
 
 # game/scripts/act2/domain.rpy:102
@@ -139,21 +139,21 @@ translate portuguese domain_2fd04e5a:
     "Criatura Éter" ".. / .-- .- -. - -....- -....- / -.-- --- ..- .-. / . -. . .-. --. -.-- .-.-.- / - .... . / ...- --- .. -.. .-.-.- .-.-.- .-.-.- / -- ..- ... - .-.-.- .-.-.- .-.-.- / .-. . - ..- .-. -. .-.-.-"
 
 # game/scripts/act2/domain.rpy:139
-translate portuguese pt1_battle_1246dfc6:
+translate portuguese pt1_battle_cbb42ec4:
 
-    # c_olivia "Common you all! We already faced stronger creaturees! This one is nothing!"
+    # c_olivia "Come on, you all! We already faced stronger creatures! This one is nothing!"
     c_olivia "Vamos pessoal! Já enfrentamos criaturas mais fortes! Esta não é nada!"
 
 # game/scripts/act2/domain.rpy:143
-translate portuguese pt1_battle_af343442:
+translate portuguese pt1_battle_32439ba2:
 
-    # c_rikumi "An advice, this creature is being able to resist one element at time, I noticed when Frederick and Olivia attacked at the beginning."
+    # c_rikumi "A piece of advice: this creature is able to resist one element at a time, I noticed when Frederick and Olivia attacked at the beginning."
     c_rikumi "Um aviso: essa criatura consegue resistir a um elemento de cada vez. Percebi isso quando Frederick e Olivia atacaram no começo."
 
 # game/scripts/act2/domain.rpy:149
-translate portuguese pt1_battle_b66ba3b4:
+translate portuguese pt1_battle_4e64df72:
 
-    # "The aether creature is currectly immune to {color=#FFFFFF}[chosen]{/color}"
+    # "The aether creature is currently immune to {color=#FFFFFF}[chosen]{/color}"
     "A criatura éter está atualmente imune a {color=#FFFFFF}[chosen]{/color}"
 
 # game/scripts/act2/domain.rpy:165
@@ -187,9 +187,9 @@ translate portuguese pt1_battle_10447294_1:
     "Seu ataque causa [party_damage] de dano!"
 
 # game/scripts/act2/domain.rpy:188
-translate portuguese pt1_battle_1c0e5ee9:
+translate portuguese pt1_battle_ba326110:
 
-    # c_olivia "I AM SORRY BUT I NEED TO BECOME THE STROGEST ELEMENTAL ALIVE, SO YOU MUST DIE MUHAUHAUHAUHA"
+    # c_olivia "I AM SORRY BUT I NEED TO BECOME THE STRONGEST ELEMENTAL ALIVE, SO YOU MUST DIE MUHAUHAUHAUHA"
     c_olivia "SINTO MUITO MAS PRECISO ME TORNAR O ELEMENTAL MAIS FORTE VIVO, ENTÃO VOCÊ DEVE MORRER MUHAUHAUHAUHA"
 
 # game/scripts/act2/domain.rpy:193
@@ -247,9 +247,9 @@ translate portuguese pt1_battle_10447294_6:
     "Seu ataque causa [party_damage] de dano!"
 
 # game/scripts/act2/domain.rpy:258
-translate portuguese pt1_battle_377d0008:
+translate portuguese pt1_battle_72a9d181:
 
-    # "the creature begins to sintonize into one of the elements present in the battlefield"
+    # "The creature begins to attune itself to one of the elements present in the battlefield"
     "a criatura começa a se sintonizar com um dos elementos presentes no campo de batalha"
 
 # game/scripts/act2/domain.rpy:259
@@ -259,9 +259,9 @@ translate portuguese pt1_battle_1c9bab6e:
     "Cuidado ao usar [chosen] no próximo turno!"
 
 # game/scripts/act2/domain.rpy:262
-translate portuguese pt1_battle_04dda53d:
+translate portuguese pt1_battle_0518f7f9:
 
-    # "The domain enchance the effect! So take care for the next two turns!"
+    # "The domain enhance the effect! So take care for the next two turns!"
     "O domínio amplifica o efeito! Tome cuidado pelos próximos dois turnos!"
 
 # game/scripts/act2/domain.rpy:267
@@ -277,9 +277,9 @@ translate portuguese pt1_battle_67947853:
     "[chosenp] (causando [aether_damage] em você e seus aliados!)"
 
 # game/scripts/act2/domain.rpy:284
-translate portuguese pt1_battle_ccc393c8:
+translate portuguese pt1_battle_708b18ae:
 
-    # "But the shields protects TEAM B!"
+    # "But the shields protect TEAM B!"
     "Mas os escudos protegem o TIME B!"
 
 # game/scripts/act2/domain.rpy:291
@@ -295,9 +295,9 @@ translate portuguese pt1_battle_21d768f5:
     c_rikumi "O teste acabou, todos lutaram bem, é hora de entrar na batalha."
 
 # game/scripts/act2/domain.rpy:299
-translate portuguese pt1_battle_a549864e:
+translate portuguese pt1_battle_8b906729:
 
-    # "Rikumi rises stones shields around everyone."
+    # "Rikumi raises stone shields around everyone."
     "Rikumi ergue escudos de pedra ao redor de todos."
 
 # game/scripts/act2/domain.rpy:310
@@ -355,9 +355,9 @@ translate portuguese ending2_2f007623:
     c_fred "Sinto muito, cara. Não passamos no teste da Reiko desta vez, mas pelo menos estamos vivos."
 
 # game/scripts/act2/domain.rpy:346
-translate portuguese ending2_849fb725:
+translate portuguese ending2_743e23f8:
 
-    # player "It's okay, don't worry, we will have another chances."
+    # player "It's okay, don't worry, we will have other chances."
     player "Tudo bem, não se preocupe, teremos outras chances."
 
 # game/scripts/act2/domain.rpy:348
@@ -397,9 +397,9 @@ translate portuguese ending2_dd68f7ed:
     c_fred "Você é a melhor!"
 
 # game/scripts/act2/domain.rpy:370
-translate portuguese ending2_e66ec26e:
+translate portuguese ending2_e33ae4bc:
 
-    # centered "Thanks for playing... maybe just reading this. I had plans to make it way longer and with multiples endings... but it didn't happen."
+    # centered "Thanks for playing... maybe just reading this. I had plans to make it way longer and with multiple endings... but it didn't happen."
     centered "Obrigado por jogar... ou talvez por apenas ler isso. Tinha planos de tornar bem mais longo e com múltiplos finais... mas não aconteceu."
 
 # game/scripts/act2/domain.rpy:371
@@ -511,9 +511,9 @@ translate portuguese ending1_be0ec203:
     "Kawara Norio" "Obrigado a todos! Vocês salvaram a cidade de Sagamihara!"
 
 # game/scripts/act2/domain.rpy:437
-translate portuguese ending1_ac5f31ee:
+translate portuguese ending1_a37082fa:
 
-    # player "We are glad we managed to defeat the creature there. It was a honour to help the Engo-ji."
+    # player "We are glad we managed to defeat the creature there. It was an honour to help the Engo-ji."
     player "Ficamos felizes em ter conseguido derrotar a criatura. Foi uma honra ajudar o Engo-ji."
 
 # game/scripts/act2/domain.rpy:443
@@ -523,9 +523,9 @@ translate portuguese ending1_040bf03d:
     c_fred "Ei, chefe, eu sei que ainda estamos no Japão, mas preciso perguntar: passamos no teste?"
 
 # game/scripts/act2/domain.rpy:448
-translate portuguese ending1_64a36822:
+translate portuguese ending1_49ac52a4:
 
-    # c_rikumi "Despite the fact [player] was rude with the guard that time."
+    # c_rikumi "Despite the fact that [player] was rude with the guard that time."
     c_rikumi "Apesar de [player] ter sido rude com o guarda naquela hora."
 
 # game/scripts/act2/domain.rpy:450
@@ -547,9 +547,9 @@ translate portuguese ending1_ff373bda:
     "Kawara Norio" "Ei! Fico feliz de ter chegado a tempo... O Líder Shumi gostaria de falar com todos vocês!"
 
 # game/scripts/act2/domain.rpy:463
-translate portuguese ending1_e66ec26e:
+translate portuguese ending1_e33ae4bc:
 
-    # centered "Thanks for playing... maybe just reading this. I had plans to make it way longer and with multiples endings... but it didn't happen."
+    # centered "Thanks for playing... maybe just reading this. I had plans to make it way longer and with multiple endings... but it didn't happen."
     centered "Obrigado por jogar... ou talvez por apenas ler isso. Tinha planos de tornar bem mais longo e com múltiplos finais... mas não aconteceu."
 
 # game/scripts/act2/domain.rpy:464
@@ -609,7 +609,7 @@ translate portuguese strings:
     new "Usar um ataque comum mais fraco, sem nenhum poder elemental."
 
     # game/scripts/act2/domain.rpy:203
-    old "Create a shield for youself and your allies!"
+    old "Create a shield for yourself and your allies!"
     new "Criar um escudo para você e seus aliados!"
 
     # game/scripts/act2/domain.rpy:207
@@ -625,9 +625,17 @@ translate portuguese strings:
     new "Usar o vento para um ataque rápido!"
 
     # game/scripts/act2/domain.rpy:221
-    old "{color=#5ad9f9}Special Olivia{/color}: Healing abitilies or extra HP"
+    old "{color=#5ad9f9}Special Olivia{/color}: Healing abilities or extra HP"
     new "{color=#5ad9f9}Especial Olivia{/color}: Habilidades de cura ou HP extra"
 
     # game/scripts/act2/domain.rpy:229
     old "{color=#ff0000}Special Frederick{/color}: Fire Flaming Slash"
     new "{color=#ff0000}Especial Frederick{/color}: Corte Chamas de Fogo"
+
+    # game/scripts/act2/domain.rpy:114
+    old "{color=#008000}Party HP:{/color} [partyhp if partyhp > 0 else 0]/[200]"
+    new "{color=#008000}PV do Grupo:{/color} [partyhp if partyhp > 0 else 0]/[200]"
+
+    # game/scripts/act2/domain.rpy:116
+    old "{color=#FFFFFF}The Quintessence Creature:{/color} [bosshp if bosshp > 0 else 0]/[300 if domain <= 2 else 260]"
+    new "{color=#FFFFFF}A Criatura da Quintessência:{/color} [bosshp if bosshp > 0 else 0]/[300 if domain <= 2 else 260]"

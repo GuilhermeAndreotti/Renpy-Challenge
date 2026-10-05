@@ -43,9 +43,9 @@ translate portuguese machine_olivia_c22da1f3:
     player "Eh-- Tá bom."
 
 # game/scripts/act1/machine_olivia.rpy:30
-translate portuguese machine_olivia_3628edfb:
+translate portuguese machine_olivia_bab541c5:
 
-    # "As you put the money in coins, you hear the sound of it falling into a {color=#f00}compartment{/color}. Just then, the machines let's you pick something with the same price or lower."
+    # "As you put the money in coins, you hear the sound of it falling into a {color=#f00}compartment{/color}. Just then, the machines let you pick something with the same price or lower."
     "Ao colocar o dinheiro em moedas, você ouve o som delas caindo em um {color=#f00}compartimento{/color}. Só então a máquina te permite escolher algo com o mesmo preço ou menor."
 
 # game/scripts/act1/machine_olivia.rpy:35

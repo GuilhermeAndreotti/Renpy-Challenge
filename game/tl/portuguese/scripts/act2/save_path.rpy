@@ -91,9 +91,9 @@ translate portuguese path_save_c2c5bd8e:
     c_fred "Diria que só estamos juntos porque Reiko derrotou um dos três a tempo."
 
 # game/scripts/act2/save_path.rpy:70
-translate portuguese path_save_3684a3b7:
+translate portuguese path_save_114120e1:
 
-    # c_fred "I was beliving she would have done something more to help, but she is really testing us, even with these out of the blue attacks."
+    # c_fred "I was believing she would have done something more to help, but she is really testing us, even with these out of the blue attacks."
     c_fred "Eu esperava que ela tivesse feito algo mais para ajudar, mas ela realmente está nos testando, mesmo com esses ataques inesperados."
 
 # game/scripts/act2/save_path.rpy:72
@@ -115,9 +115,9 @@ translate portuguese path_save_239b8c95:
     "Você ouve o som de ferro se soltando da parede."
 
 # game/scripts/act2/save_path.rpy:83
-translate portuguese path_save_8821297c:
+translate portuguese path_save_100ca4b8:
 
-    # c_fred "Guess they dont want to play hide and seek since what happened. Be ready! We have a battle incoming!"
+    # c_fred "Guess they don't want to play hide and seek since what happened. Be ready! We have a battle incoming!"
     c_fred "Acho que eles não querem mais brincar de esconde-esconde depois do que aconteceu. Prepara! Temos uma batalha chegando!"
 
 # game/scripts/act2/save_path.rpy:85
@@ -181,21 +181,21 @@ translate portuguese battle_1_loop_835f1e5a:
     "Você usa o vento ao seu redor para criar uma barreira para você e Fred!"
 
 # game/scripts/act2/save_path.rpy:151
-translate portuguese battle_1_loop_b0ca2742:
+translate portuguese battle_1_loop_a7d3390d:
 
-    # "You heal yourself and Fred! Dispite not liking to use water that way."
+    # "You heal yourself and Fred! Despite not liking to use water that way."
     "Você se cura e cura Fred! Apesar de não gostar de usar a água dessa forma."
 
 # game/scripts/act2/save_path.rpy:170
-translate portuguese battle_1_loop_c3037790:
+translate portuguese battle_1_loop_de026e38:
 
-    # "The water elemental heals everyone, expect its enemy, he is not that dumb. But he is happy, in fact."
+    # "The water elemental heals everyone, except its enemy, he is not that dumb. But he is happy, in fact."
     "O elemental de água cura todos, exceto seu inimigo, pois não é tão burro assim. Mas está feliz, na verdade."
 
 # game/scripts/act2/save_path.rpy:180
-translate portuguese battle_1_loop_58b97099:
+translate portuguese battle_1_loop_85ebebc9:
 
-    # "Rrrrrrrrr! {i}*They attacks you*{/i} (damage dealt - [fire_damage + earth_damage + water_damage]hp)"
+    # "Rrrrrrrrr! {i}*They attack you*{/i} (damage dealt - [fire_damage + earth_damage + water_damage]hp)"
     "Rrrrrrrrr! {i}*Eles te atacam*{/i} (dano causado - [fire_damage + earth_damage + water_damage]hp)"
 
 # game/scripts/act2/save_path.rpy:186
@@ -211,9 +211,9 @@ translate portuguese battle_1_loop_f0791db8:
     "Após ver seus dois amigos morrerem, a máquina de venda de água decidiu se matar, adeus."
 
 # game/scripts/act2/save_path.rpy:205
-translate portuguese battle_1_loop_9d411474:
+translate portuguese battle_1_loop_68c2b494:
 
-    # "It was suppossed to be impossible to reach this place, congrats."
+    # "It was supposed to be impossible to reach this place, congrats."
     "Era para ser impossível chegar aqui, parabéns."
 
 # game/scripts/act2/save_path.rpy:206
@@ -247,15 +247,15 @@ translate portuguese special_event_7ac5b23c:
     centered "Você ataca seu ponto fraco, mirando no que é comum às duas máquinas: o compartimento do dinheiro, seu núcleo."
 
 # game/scripts/act2/save_path.rpy:238
-translate portuguese special_event_63e93566:
+translate portuguese special_event_83681e9a:
 
-    # c_fred "My Friend! That was impressive! No kidding! The moment I noticed what you did, I tried following your plan."
+    # c_fred "My friend! That was impressive! No kidding! The moment I noticed what you did, I tried following your plan."
     c_fred "Meu amigo! Que impressionante! Sério! No momento em que percebi o que você fez, tentei seguir seu plano."
 
 # game/scripts/act2/save_path.rpy:239
-translate portuguese special_event_d26f33e7:
+translate portuguese special_event_3b043004:
 
-    # c_fred "It worked perfectly and we defeat them easily. You remembered the boss lesson!"
+    # c_fred "It worked perfectly and we defeated them easily. You remembered the boss lesson!"
     c_fred "Funcionou perfeitamente e as derrotamos facilmente. Você se lembrou da lição da chefe!"
 
 # game/scripts/act2/save_path.rpy:252
@@ -265,9 +265,9 @@ translate portuguese continue_story_4625f3e7:
     c_fred "No caminho, precisamos encontrar todos."
 
 # game/scripts/act2/save_path.rpy:254
-translate portuguese continue_story_e166b519:
+translate portuguese continue_story_ded407e5:
 
-    # c_fred "You are way stronger than the last mission, let's go eat something here in Japan after the mission to celebrate, Olivia may like japanese food."
+    # c_fred "You are way stronger than the last mission, let's go eat something here in Japan after the mission to celebrate, Olivia may like Japanese food."
     c_fred "Você está muito mais forte do que na última missão, vamos comer algo aqui no Japão depois da missão para comemorar, a Olivia pode gostar da comida japonesa."
 
 # game/scripts/act2/save_path.rpy:255
@@ -277,21 +277,21 @@ translate portuguese continue_story_999aea07:
     player "Obrigado! Vamos continuar, precisamos encontrar Olivia e Reiko."
 
 # game/scripts/act2/save_path.rpy:257
-translate portuguese continue_story_a68caf13:
+translate portuguese continue_story_098322a5:
 
-    # c_fred "Let's keep this following this path. It's like the only way."
+    # c_fred "Let's keep following this path. It's like the only way."
     c_fred "Vamos continuar seguindo este caminho. Parece ser o único jeito."
 
 # game/scripts/act2/save_path.rpy:266
-translate portuguese continue_story_e5b8650a:
+translate portuguese continue_story_3f254539:
 
-    # c_fred "I can't even get something to drink and they attack us! Goddman!"
+    # c_fred "I can't even get something to drink and they attack us! Goddamn!"
     c_fred "Não consigo nem pegar algo para beber e eles nos atacam! Maldição!"
 
 # game/scripts/act2/save_path.rpy:268
-translate portuguese continue_story_fcfe4f09:
+translate portuguese continue_story_74cfc650:
 
-    # c_fred "Die you all, I hate this freaking creatures."
+    # c_fred "Die you all, I hate these freaking creatures."
     c_fred "Morram todos, odeio essas malditas criaturas."
 
 # game/scripts/act2/save_path.rpy:274
@@ -307,9 +307,9 @@ translate portuguese continue_story_f53802d2:
     c_fred "Ufa... Era o último."
 
 # game/scripts/act2/save_path.rpy:282
-translate portuguese continue_story_dc0a81f8:
+translate portuguese continue_story_782062ab:
 
-    # c_fred "I was expecting something more in the investigative to be honest. Look."
+    # c_fred "I was expecting something more investigative to be honest. Look."
     c_fred "Estava esperando algo mais investigativo, para ser honesto. Olha."
 
 # game/scripts/act2/save_path.rpy:288
@@ -385,9 +385,9 @@ translate portuguese continue_story_8cf35fa4:
     c_olivia "NÃO PEDI NENHUMA AJUDA, A MAIOR DEUSA DA ÁGUA CONSEGUE LIDAR SOZINHA."
 
 # game/scripts/act2/save_path.rpy:344
-translate portuguese continue_story_8044a716:
+translate portuguese continue_story_a1f0b8bd:
 
-    # c_fred "Common not here, even I was worried about you."
+    # c_fred "Come on, not here, even I was worried about you."
     c_fred "Vai nessa não, até eu estava preocupado com você."
 
 # game/scripts/act2/save_path.rpy:346
@@ -421,9 +421,9 @@ translate portuguese continue_story_2bc945bd:
     player "BOLA DE FOGO!!!!!!!!!!!!!!!!!!!"
 
 # game/scripts/act2/save_path.rpy:396
-translate portuguese continue_story_1b34d519:
+translate portuguese continue_story_09a9911d:
 
-    # "You envelops your hands in stone and attack the creature!"
+    # "You envelop your hands in stone and attack the creature!"
     "Você envolve suas mãos em pedra e ataca a criatura!"
 
 # game/scripts/act2/save_path.rpy:400
@@ -433,9 +433,9 @@ translate portuguese continue_story_e4e9ec04:
     "Com suas grandes habilidades de ar, você destrói a criatura elemental!"
 
 # game/scripts/act2/save_path.rpy:404
-translate portuguese continue_story_72aae89b:
+translate portuguese continue_story_aa4933a4:
 
-    # "You cast several ray of frost until the earth elemental dies."
+    # "You cast several rays of frost until the earth elemental dies."
     "Você lança vários raios de gelo até o elemental de terra morrer."
 
 # game/scripts/act2/save_path.rpy:410
@@ -493,9 +493,9 @@ translate portuguese continue_story_a6371c24:
     c_rikumi "É um domínio que a criatura éter criou para absorver magia."
 
 # game/scripts/act2/save_path.rpy:448
-translate portuguese continue_story_a95d6926:
+translate portuguese continue_story_ef1521e8:
 
-    # c_fred "I got it. Since Olivia is a well strong water elemental by its core."
+    # c_fred "I got it. Since Olivia is a really strong water elemental by its core."
     c_fred "Entendi. Já que Olivia é uma elemental de água muito forte em seu núcleo."
 
 # game/scripts/act2/save_path.rpy:450
@@ -511,9 +511,9 @@ translate portuguese continue_story_debd9ce0:
     c_fred "Já que elementais éter podem consumir tanto almas quanto magia elemental para sobreviver."
 
 # game/scripts/act2/save_path.rpy:454
-translate portuguese continue_story_e5c01c93:
+translate portuguese continue_story_7b4b63ad:
 
-    # c_fred "Still I can't understand why others creatures are obeing this alpha one. Since I am quite sure we are not facing smarts elementals who can talk."
+    # c_fred "Still I can't understand why others creatures are obeying this alpha one. Since I am quite sure we are not facing smart elementals who can talk."
     c_fred "Ainda não consigo entender por que as outras criaturas obedecem a essa alfa. Pois tenho quase certeza de que não estamos enfrentando elementais inteligentes que conseguem falar."
 
 # game/scripts/act2/save_path.rpy:459
@@ -555,7 +555,7 @@ translate portuguese continue_story_039501da:
 translate portuguese strings:
 
     # game/scripts/act2/save_path.rpy:117
-    old "Atack the fire creature with your [main_element]!"
+    old "Attack the fire creature with your [main_element]!"
     new "Atacar a criatura de fogo com seu [main_element]!"
 
     # game/scripts/act2/save_path.rpy:129
@@ -573,3 +573,19 @@ translate portuguese strings:
     # game/scripts/act2/save_path.rpy:154
     old "Use your knowledge you learned before and attack its weak spots!"
     new "Use o conhecimento que aprendeu antes e ataque seus pontos fracos!"
+
+    # game/scripts/act2/save_path.rpy:9
+    old "{color=#008000}Party HP:{/color} [party if party > 0 else 0]/[90]"
+    new "{color=#008000}PV do Grupo:{/color} [party if party > 0 else 0]/[90]"
+
+    # game/scripts/act2/save_path.rpy:11
+    old "{color=#008000}Earth Machine:{/color} [hpearth if hpearth > 0 else 0]/30"
+    new "{color=#008000}Máquina de Terra:{/color} [hpearth if hpearth > 0 else 0]/30"
+
+    # game/scripts/act2/save_path.rpy:12
+    old "{color=#f00}Fire Machine:{/color} [hpfire if hpfire > 0 else 0]/20"
+    new "{color=#f00}Máquina de Fogo:{/color} [hpfire if hpfire > 0 else 0]/20"
+
+    # game/scripts/act2/save_path.rpy:13
+    old "{color=#0000ff}Water Machine:{/color} [hpwater if hpwater > 0 else 0]/30"
+    new "{color=#0000ff}Máquina de Água:{/color} [hpwater if hpwater > 0 else 0]/30"

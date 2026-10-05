@@ -1,33 +1,33 @@
 # TODO: Translation updated at 2025-10-20 00:04
 
 # game/scripts/act2/sagamihara.rpy:4
-translate portuguese first_0d9e9e3e:
+translate portuguese first_e5914a78:
 
-    # centered "2028, Friday, 12 p.m - Sagamihara's City (Japan)"
+    # centered "2028, Friday, 12 p.m - Sagamihara City (Japan)"
     centered "2028, sexta-feira, 12h - Cidade de Sagamihara (Japão)"
 
 # game/scripts/act2/sagamihara.rpy:10
-translate portuguese first_90c2516e:
+translate portuguese first_c72200b3:
 
-    # "Guard" "(Saying words in japanese which you can't understand nothing)"
+    # "Guard" "(Saying words in Japanese which you can't understand at all)"
     "Guarda" "(Dizendo palavras em japonês que você não consegue entender nada)"
 
 # game/scripts/act2/sagamihara.rpy:14
-translate portuguese first_c3ca2774:
+translate portuguese first_71dfccaa:
 
-    # c_fred "Hey boss! Gimme a help here, I can't understand nothing he is saying."
+    # c_fred "Hey boss! Gimme a hand here, I can't understand anything he is saying."
     c_fred "Ei, chefe! Me ajuda aqui, não estou entendendo nada do que ele está dizendo."
 
 # game/scripts/act2/sagamihara.rpy:20
-translate portuguese first_0683a568:
+translate portuguese first_5a741e4e:
 
-    # c_rikumi "Haha, alright. (Start saying in japanese things you can't also understand)"
+    # c_rikumi "Haha, alright. (Starts saying things in Japanese that you also can't understand)"
     c_rikumi "Haha, claro. (Começa a dizer coisas em japonês que você também não entende)"
 
 # game/scripts/act2/sagamihara.rpy:22
-translate portuguese first_226db13d:
+translate portuguese first_f905fbcc:
 
-    # "Guard" "(Japanese words, thank you guardian call!!)"
+    # "Guard" "(Japanese words, thank you Guardian Call!!)"
     "Guarda" "(Palavras em japonês, obrigado Guardian Call!!)"
 
 # game/scripts/act2/sagamihara.rpy:29
@@ -61,9 +61,9 @@ translate portuguese first_20a73cb8:
     c_olivia "O que você me chamou?!"
 
 # game/scripts/act2/sagamihara.rpy:47
-translate portuguese first_a41dd992:
+translate portuguese first_e935af90:
 
-    # player "Common guys, let's get going."
+    # player "Come on, guys, let's get going."
     player "Vai pessoal, vamos embora."
 
 # game/scripts/act2/sagamihara.rpy:55
@@ -73,9 +73,9 @@ translate portuguese first_44a80488:
     c_rikumi "É bom estar no Japão novamente. Faz um tempo."
 
 # game/scripts/act2/sagamihara.rpy:60
-translate portuguese first_64160811:
+translate portuguese first_ba7b93a7:
 
-    # c_olivia "I wonder why my brothers are inside vending machines while they can just become humans and enjoy a easy life like mine."
+    # c_olivia "I wonder why my brothers are inside vending machines while they can just become humans and enjoy an easy life like mine."
     c_olivia "Fico me perguntando por que meus irmãos ficam dentro de máquinas de venda quando poderiam simplesmente se tornar humanos e aproveitar uma vida fácil como a minha."
 
 # game/scripts/act2/sagamihara.rpy:62
@@ -103,9 +103,9 @@ translate portuguese first_b7898c9e:
     c_fred "Você esqueceu de mencionar que possuiu um humano e ganhou o controle por instinto, mas é a primeira vez que te ouço dizer algo que faz sentido, então tudo bem."
 
 # game/scripts/act2/sagamihara.rpy:76
-translate portuguese first_3ec3362e:
+translate portuguese first_dce29352:
 
-    # c_rikumi "Please, I recommend to not start a fight right here, Olivia."
+    # c_rikumi "Please, I recommend that you not start a fight right here, Olivia."
     c_rikumi "Por favor, recomendo não começar uma briga bem aqui, Olivia."
 
 # game/scripts/act2/sagamihara.rpy:78
@@ -145,9 +145,9 @@ translate portuguese first_56cf7374:
     c_rikumi "Dito isso, estarei constantemente testando todos vocês, suas decisões e batalhas. Mas fiquem tranquilos, se necessário, também ajudarei."
 
 # game/scripts/act2/sagamihara.rpy:104
-translate portuguese first_b69d81b4:
+translate portuguese first_83697a51:
 
-    # c_rikumi "Also rest assured if you all pass, [player] will be hired early, and you all will get a well good pay rise. And these amulets will become yours."
+    # c_rikumi "Also rest assured if you all pass, [player] will be hired early, and you all will get a very good pay rise. And these amulets will become yours."
     c_rikumi "Também fiquem tranquilos que se todos passarem, [player] será contratado mais cedo, e todos receberão um bom aumento de salário. E esses amuletos serão de vocês."
 
 # game/scripts/act2/sagamihara.rpy:106
@@ -163,9 +163,9 @@ translate portuguese first_6c0e719d:
     c_olivia "SIIIIIIIIIM. ADOREI."
 
 # game/scripts/act2/sagamihara.rpy:117
-translate portuguese first_c83ef759:
+translate portuguese first_3155c5d9:
 
-    # c_olivia "COMMON EVERYONE, IT IS TIME TO GET SERIOUS."
+    # c_olivia "COME ON, EVERYONE, IT IS TIME TO GET SERIOUS."
     c_olivia "VAMOS PESSOAL, É HORA DE FICAR SÉRIO."
 
 # game/scripts/act2/sagamihara.rpy:121

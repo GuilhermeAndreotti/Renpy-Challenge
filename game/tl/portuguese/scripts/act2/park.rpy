@@ -13,15 +13,15 @@ translate portuguese park_eb928178:
     "Você, Olivia, Reiko e Frederick mostram os documentos, provando que todos são do Guardian Call."
 
 # game/scripts/act2/park.rpy:17
-translate portuguese park_9837077d:
+translate portuguese park_c3abd435:
 
-    # "Kawara Norio" "Hello, Guardian Call. It's such a pleasure to meet you all. I am Kawara Norio, a member from the engo-ji clan. "
+    # "Kawara Norio" "Hello, Guardian Call. It's such a pleasure to meet you all. I am Kawara Norio, a member from the Engo-ji clan. "
     "Kawara Norio" "Olá, Guardian Call. É um prazer enorme conhecer vocês todos. Sou Kawara Norio, um membro do clã Engo-ji."
 
 # game/scripts/act2/park.rpy:19
-translate portuguese park_2de3e9ce:
+translate portuguese park_50a290c4:
 
-    # "Kawara Norio" "Me and a few other lower-rank hunters are keeping this barrier active to avoid more creatures to enter and leave."
+    # "Kawara Norio" "A few other lower-rank hunters and I are keeping this barrier active to prevent more creatures from entering and leaving."
     "Kawara Norio" "Eu e mais alguns caçadores de baixo rank estamos mantendo esta barreira ativa para evitar que mais criaturas entrem e saiam."
 
 # game/scripts/act2/park.rpy:21
@@ -31,9 +31,9 @@ translate portuguese park_60389c34:
     "Kawara Norio" "Pedimos desculpas pela ausência de caçadores de alto rank do Engo-ji aqui para ajudar, mas nossa situação em Tóquio é de fato complicada."
 
 # game/scripts/act2/park.rpy:23
-translate portuguese park_9d6371fe:
+translate portuguese park_f67df5e2:
 
-    # "As the guard speaks english, Reiko keeps her silence, looking like she expecting you all to deal with the situation."
+    # "As the guard speaks english, Reiko keeps her silence, looking like she is expecting you all to deal with the situation."
     "Enquanto o guarda fala inglês, Reiko fica em silêncio, parecendo esperar que vocês todos lidem com a situação."
 
 # game/scripts/act2/park.rpy:29
@@ -91,15 +91,15 @@ translate portuguese park_89809279:
     c_fred "Então estamos aqui. Recomendo que não saíamos quebrando tudo. Ei, chefe, precisamos derrotar todas as criaturas aqui?"
 
 # game/scripts/act2/park.rpy:58
-translate portuguese park_d73ea6c7:
+translate portuguese park_1803c156:
 
-    # c_rikumi "The main goal is to defeat the Aether creature. But it is also interesting to reduce the number of creatures here by its total."
+    # c_rikumi "The main goal is to defeat the Aether creature. But it is also interesting to reduce the number of creatures here overall."
     c_rikumi "O objetivo principal é derrotar a criatura Éter. Mas também seria interessante reduzir o número de criaturas aqui ao máximo."
 
 # game/scripts/act2/park.rpy:64
-translate portuguese park_8c17e744:
+translate portuguese park_af035421:
 
-    # c_olivia "YOU FOOLS TAKE TOO LONG DECIDING WHAT DO YOU. GOOD BYE. I AM GOING AFTER THE AETHER CREATURE, YOU TWO, DEFEAT THE OTHER ONES."
+    # c_olivia "YOU FOOLS TAKE TOO LONG DECIDING WHAT TO DO. GOODBYE. I AM GOING AFTER THE AETHER CREATURE, YOU TWO, DEFEAT THE OTHER ONES."
     c_olivia "VOCÊS BOBOS DEMORAM DEMAIS PARA DECIDIR O QUE FAZER. TCHAU. VOU ATRÁS DA CRIATURA ÉTER, VOCÊS DOIS, DERROTAM AS OUTRAS."
 
 # game/scripts/act2/park.rpy:71
@@ -115,9 +115,9 @@ translate portuguese park_3c5e7766:
     c_fred "Ei cara, não se preocupe com ela, ela é basicamente imortal. É burra, mas consegue sair de qualquer situação."
 
 # game/scripts/act2/park.rpy:79
-translate portuguese park_155bc3bd:
+translate portuguese park_3d69fae3:
 
-    # player "We should go after here, Fred. She can ended up absorbed."
+    # player "We should go after her, Fred. She could end up absorbed."
     player "Deveríamos ir atrás dela, Fred. Ela pode acabar sendo absorvida."
 
 # game/scripts/act2/park.rpy:84

@@ -14,13 +14,13 @@ label park:
     show guard2 at right_normal
     show guard at left_normal
 
-    "Kawara Norio" "Hello, Guardian Call. It's such a pleasure to meet you all. I am Kawara Norio, a member from the engo-ji clan. "
+    "Kawara Norio" "Hello, Guardian Call. It's such a pleasure to meet you all. I am Kawara Norio, a member from the Engo-ji clan. "
 
-    "Kawara Norio" "Me and a few other lower-rank hunters are keeping this barrier active to avoid more creatures to enter and leave."
+    "Kawara Norio" "A few other lower-rank hunters and I are keeping this barrier active to prevent more creatures from entering and leaving."
 
     "Kawara Norio" "We apologise that no high-ranking hunters of Engo-ji are here to help, but our situation is indeed complicated in Tokyo."
 
-    "As the guard speaks english, Reiko keeps her silence, looking like she expecting you all to deal with the situation."
+    "As the guard speaks english, Reiko keeps her silence, looking like she is expecting you all to deal with the situation."
 
     default score = 10
 
@@ -55,13 +55,13 @@ label park:
 
     show rikumi_base1 at left_normal
 
-    c_rikumi "The main goal is to defeat the Aether creature. But it is also interesting to reduce the number of creatures here by its total."
+    c_rikumi "The main goal is to defeat the Aether creature. But it is also interesting to reduce the number of creatures here overall."
 
     hide frederick_base1 
     hide rikumi_base1
     show olivia_base1 at size_normal
 
-    c_olivia "YOU FOOLS TAKE TOO LONG DECIDING WHAT DO YOU. GOOD BYE. I AM GOING AFTER THE AETHER CREATURE, YOU TWO, DEFEAT THE OTHER ONES."
+    c_olivia "YOU FOOLS TAKE TOO LONG DECIDING WHAT TO DO. GOODBYE. I AM GOING AFTER THE AETHER CREATURE, YOU TWO, DEFEAT THE OTHER ONES."
 
     hide olivia_base1
     show olivia_base2 at size_normal:
@@ -76,7 +76,7 @@ label park:
 
     c_fred "Hey pal, don't worry about her, she is basically an immortal. She is stupid, but she manages to get out of any situation."
 
-    player "We should go after here, Fred. She can ended up absorbed."
+    player "We should go after her, Fred. She could end up absorbed."
 
     hide frederick_base1
     show frederick_base2 at size_normal

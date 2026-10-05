@@ -7,7 +7,7 @@ label travel:
 
     show rikumi_base1 at size_normal
 
-    c_rikumi "It's the time. We have a 13 hour trip ahead of us. Gladly, the government is offering us a private plane with every basic need there."
+    c_rikumi "It's the time. We have a 13-hour trip ahead of us. Luckily, the government is offering us a private plane with every basic need there."
 
     show frederick_base1 at left_normal
 
@@ -17,24 +17,24 @@ label travel:
 
     c_olivia "Hey boss. Am I allowed to sleep?"
 
-    c_rikumi "Yes. You all should use this 13 hours to rest or do a hobby or something similar."
+    c_rikumi "Yes. You all should use these 13 hours to rest or do a hobby or something similar."
 
     hide olivia_base1
     hide frederick_base1
     hide rikumi_base1
     show olivia_base2 at size_normal
 
-    c_olivia "HAHAHA 13 HOURS OF JUST SLEEPING. GOOD BYE FOOLS"
+    c_olivia "HAHAHA 13 HOURS OF JUST SLEEPING. GOODBYE, FOOLS"
 
     scene plane1 with blinds
     show rikumi_base1 at size_normal
 
-    c_rikumi "I spoke with the pilot and he will stop in Sagamihara for us, at a small facility Engo-ji preprared for us."
+    c_rikumi "I spoke with the pilot and he will stop in Sagamihara for us, at a small facility Engo-ji prepared for us."
 
     scene insideplane with dissolve 
     show olivia_base2 at size_normal
 
-    c_olivia "GOOD bye you all, I AM GOING TO SLEEP."
+    c_olivia "GOODBYE, you all, I AM GOING TO SLEEP."
 
     hide olivia_base2
 
@@ -53,7 +53,7 @@ label travel:
     hide rikumi_base2
     show rikumi_eyes_closed at right_normal
 
-    c_rikumi "This dragon was never defeated, people of that time just managed to sent the creature to its home."
+    c_rikumi "This dragon was never defeated, people of that time just managed to send the creature to its home."
 
     hide frederick_base1
     show frederick_base2 at left_normal
@@ -63,13 +63,13 @@ label travel:
     hide rikumi_eyes_closed
     show rikumi_base1 at right_normal
 
-    c_rikumi "Yeah, you are right. They are like berserkers. Every element damage them but every element is also damaged by."
+    c_rikumi "Yeah, you are right. They are like berserkers. Every element damages them, but every element is also damaged by them."
 
     c_rikumi "But these creatures can enter a state of absorption. In this case, only two scenarios are possible. An overcharge of the core elements, which the creature can't hold."
 
-    c_rikumi "The energy required must be well calculated. If the overcharge ended up being not enough, it will only enchance the creature."
+    c_rikumi "The energy required must be well calculated. If the overcharge ended up being not enough, it will only enhance the creature."
 
-    c_rikumi "And the other scenario, finding a way to stop its absorption, as various different ways."
+    c_rikumi "And the other scenario, finding a way to stop its absorption, as there are various different ways."
 
     player "Thanks for the information, captain."
 
