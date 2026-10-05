@@ -575,8 +575,8 @@ translate portuguese strings:
     new "Use o conhecimento que aprendeu antes e ataque seus pontos fracos!"
 
     # game/scripts/act2/save_path.rpy:9
-    old "{color=#008000}Party HP:{/color} [party]/[90]"
-    new "{color=#008000}PV do Grupo:{/color} [party]/[90]"
+    old "{color=#008000}Party HP:{/color} [party if party > 0 else 0]/[90]"
+    new "{color=#008000}PV do Grupo:{/color} [party if party > 0 else 0]/[90]"
 
     # game/scripts/act2/save_path.rpy:11
     old "{color=#008000}Earth Machine:{/color} [hpearth if hpearth > 0 else 0]/30"

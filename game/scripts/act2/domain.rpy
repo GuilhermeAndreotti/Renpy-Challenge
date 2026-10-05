@@ -205,8 +205,12 @@ label pt1_battle:
                 $ special_cd = 2
             
             "Blast burn the creature" if main_element == 'fire' and special_cd == 0:
-                $ party_damage = 15
-                "Your attack deals [party_damage] damage!"
+                if chosen == 'fire':
+                    "But the creature is immune!"
+                    $ party_damage = 0
+                else:
+                    $ party_damage = 15
+                    "Your attack deals [party_damage] damage!"
                 $ special_cd = 2
 
             "Create a freezing shield" if main_element == 'water' and special_cd == 0:
@@ -214,13 +218,17 @@ label pt1_battle:
                 $ special_cd = 2
 
             "Use the wind to make a quick attack!" if main_element == 'air' and special_cd == 0:
-                $ party_damage = renpy.random.randint(2, 6) + 10
-                "Your attack deals [party_damage] damage!"
+                if chosen == 'air':
+                    "But the creature is immune!"
+                    $ party_damage = 0
+                else:
+                    $ party_damage = renpy.random.randint(2, 6) + 10
+                    "Your attack deals [party_damage] damage!"
                 $ special_cd = 2
 
             "{color=#5ad9f9}Special Olivia{/color}: Healing abilities or extra HP" if olivia_cd == 0:
                 $ olivia_cd = 3
-                $ partyhp += 20
+                $ partyhp = min(partyhp + 20, 200)
                 show olivia_angry1 at left_normal
                 c_olivia "Don't expect I like you all for doing this!"
                 play sound water volume 0.2
@@ -271,10 +279,10 @@ label pt1_battle:
         if bosshp <= 0:
             jump ending1
 
-        if partyhp <= 0 and bosshp > 0:
-            jump ending2
+        if shield == 1:
+            $ aether_damage = 0
 
-        $ partyhp -= 0 if shield == 1 else aether_damage
+        $ partyhp -= aether_damage
         $ phrases = ['The quintessence creature fires a barrage of all the elements combined at once.', 'The creatures punches you with its combined elements' if transformed == 1 else 'The creature fires a item from its vending machine', 'The combined energy advances at you']
         $ chosenp = renpy.random.choice(phrases)
         
@@ -284,6 +292,9 @@ label pt1_battle:
             "But the shields protect TEAM B!" 
         
         $ shield = 0
+
+        if partyhp <= 0:
+            jump ending2
 
         if bosshp <= 80 and transformed == 0:
             $ domain = 3
@@ -297,7 +308,7 @@ label pt1_battle:
             c_rikumi "Test is over, you all fought well, it's time to join the battle."
 
             "Rikumi raises stone shields around everyone."
-            $ partyhp += 40
+            $ partyhp = min(partyhp + 40, 200)
             $ shield = 1
 
 

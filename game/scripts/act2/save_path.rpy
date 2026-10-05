@@ -6,7 +6,7 @@ screen creatures_battle:
             xalign 2
             xsize 360
             text "==============="
-            text "{color=#008000}Party HP:{/color} [party]/[90]"
+            text "{color=#008000}Party HP:{/color} [party if party > 0 else 0]/[90]"
             text "==============="
             text "{color=#008000}Earth Machine:{/color} [hpearth if hpearth > 0 else 0]/30"
             text "{color=#f00}Fire Machine:{/color} [hpfire if hpfire > 0 else 0]/20"
@@ -117,7 +117,7 @@ label battle_1_loop:
             "Attack the fire creature with your [main_element]!" if hpfire > 0:
                 "With your [main_element] spellcaster abilities, you cast a magical sphere towards the enemy!"
 
-                if shield == 1 and hpfire > 0:
+                if shield == 1 and hpearth > 0 and hpfire > 0:
                     $ hpfire -= 0
                     "BUT! The Earth Elemental uses its shield to protect its friend."
                 else:
@@ -133,16 +133,16 @@ label battle_1_loop:
                     else:
                         $ hpearth -= renpy.random.randint(2, 6)
 
-            "Attack the water creature with your [main_element]!" if hpearth > 0:
+            "Attack the water creature with your [main_element]!" if hpwater > 0:
                 player "Take this!"
-                if shield == 1 and hpwater > 0:
+                if shield == 1 and hpearth > 0 and hpwater > 0:
                     $ hpwater -= 0
                     "BUT! The Earth Elemental uses its shield to protect its friend."
                 else:
                     if main_element == 'water':
                         "Oh no! The Water elemental absorbed your attack!"
                     else:
-                        $ hpfire -= renpy.random.randint(2, 6)
+                        $ hpwater -= renpy.random.randint(2, 6)
 
             "Protect yourself and your ally" if (main_element == 'water' or main_element == 'air') and party < 61:
                 if main_element == 'air':
@@ -155,13 +155,11 @@ label battle_1_loop:
                 jump special_event
 
          
-        if hpfire > 0:
-            $ fire_damage = renpy.random.randint(2, 8)
-        if hpearth > 0:
-            $ earth_damage = renpy.random.randint(1, 4)
-        if hpwater > 0:
-            $ water_damage = renpy.random.randint(1, 2)
-        
+        $ fire_damage = renpy.random.randint(2, 8) if hpfire > 0 else 0
+        $ earth_damage = renpy.random.randint(1, 4) if hpearth > 0 else 0
+        $ water_damage = renpy.random.randint(1, 2) if hpwater > 0 else 0
+        $ shield = 0
+
         if earth_damage == 1 and hpearth > 0:
             $ shield = 1
             $ earth_damage = 1
@@ -185,7 +183,6 @@ label battle_1_loop:
 
         "Frederick uses his abilities, he quickly switches between slashes with fire, mist and even ordinary ones."
 
-        $ shield = 0
         if hpfire <= 0:
             hide firevending
         
