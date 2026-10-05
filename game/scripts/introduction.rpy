@@ -28,7 +28,7 @@ label introduction:
 
     scene intro_3 with dissolve
 
-    centered "{color=#0000ff}The elemental creatures, they need mana to survive. And the most natural way was through the conversion of the human soul.{/color}"
+    centered "{color=#0000ff}The elemental creatures need mana to survive. And the most natural way was through the conversion of the human soul.{/color}"
 
     scene black_full
 
@@ -40,7 +40,7 @@ label introduction:
 
     scene black_full with dissolve
 
-    centered "A established network of sacred places in central locations around the planet, where these fissures converged. However, the temples could not be protected by incredible magic or anything, it was necessary that the only source of magic that existed in that place was the fissure itself."
+    centered "An established network of sacred places in central locations around the planet, where these fissures converged. However, the temples could not be protected by incredible magic or anything, it was necessary that the only source of magic that existed in that place was the fissure itself."
 
     centered "Consequently, for years, the magical fissures began to fade, gradually losing their intensity and erasing the chances of new magical beasts, but also... removing the mana from our world."
    

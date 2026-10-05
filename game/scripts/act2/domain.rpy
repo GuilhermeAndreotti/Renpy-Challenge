@@ -8,7 +8,7 @@ label domain:
 
     show olivia_angry1 at size_normal
 
-    c_olivia "I can't saw nothing here. But the energy is one of the strongest I ever felt. You! [player]! Begin the process!"
+    c_olivia "I can't see anything here. But the energy is one of the strongest I ever felt. You! [player]! Begin the process!"
 
     scene gatewithmachine with dissolve
 
@@ -16,9 +16,9 @@ label domain:
 
     show frederick_angry1 at left_normal
 
-    c_fred "Pal, good luck! We are couting with you!"
+    c_fred "Pal, good luck! We are counting with you!"
 
-    "While you are focusing on breaking the domain, both Frederick and Olivia advances to attack the vending machine, thinking it was the Aether Creature but... the vending machine just breaks normally."
+    "While you are focusing on breaking the domain, both Frederick and Olivia advance to attack the vending machine, thinking it was the Aether Creature but... the vending machine just breaks normally."
 
     scene gate with dissolve
 
@@ -26,13 +26,13 @@ label domain:
 
     c_olivia "What?"
 
-    "A mysterious vending machine appears behind you. You try protecing yourself but nothing happened, it just stays as a regular vending machine."
+    "A mysterious vending machine appears behind you. You try protecting yourself but nothing happened, it just stays as a regular vending machine."
     
     hide olivia_angry1
 
     show aetherbasic at size_normal
 
-    "It remains there, mysterious enough the enter the theme Mami selected."
+    "It remains there, mysterious enough to fit the theme Mami selected."
 
     $ hard = 4
     menu:
@@ -94,7 +94,7 @@ label domain:
 
     "Regular Vending Machine" "-.-- --- ..- / .-- .. .-.. .-.. / -. . ...- . .-. / ... - --- .--. / --- ..- .-. / .-.. --- .-. -.. .-.-.-"
 
-    "After everthing what happened so far, the mysterios vending machine begins to tranform itself."
+    "After everything that happened so far, the mysterious vending machine begins to transform itself."
 
     show aether2 at size_normal
     play music battle volume 0.1
@@ -136,17 +136,17 @@ label pt1_battle:
     $ rikumi_cd = 0
 
     show olivia_base1 at left_normal
-    c_olivia "Common you all! We already faced stronger creaturees! This one is nothing!"
+    c_olivia "Come on, you all! We already faced stronger creatures! This one is nothing!"
     hide olivia_base1
 
     show rikumi_base1 at right_normal
-    c_rikumi "An advice, this creature is being able to resist one element at time, I noticed when Frederick and Olivia attacked at the beginning."
+    c_rikumi "A piece of advice: this creature is able to resist one element at a time, I noticed when Frederick and Olivia attacked at the beginning."
     hide rikumi_base1
 
     while (partyhp > 0) and (bosshp > 0):   
 
         if boss_special > 0:
-            "The aether creature is currectly immune to {color=#FFFFFF}[chosen]{/color}"
+            "The aether creature is currently immune to {color=#FFFFFF}[chosen]{/color}"
             $ boss_special -= 1
         
         if special_cd > 0:
@@ -185,7 +185,7 @@ label pt1_battle:
             "Attack with Olivia":
 
                 show olivia_angry1 at left_normal
-                c_olivia "I AM SORRY BUT I NEED TO BECOME THE STROGEST ELEMENTAL ALIVE, SO YOU MUST DIE MUHAUHAUHAUHA"
+                c_olivia "I AM SORRY BUT I NEED TO BECOME THE STRONGEST ELEMENTAL ALIVE, SO YOU MUST DIE MUHAUHAUHAUHA"
                 play sound water volume 0.2
                 hide olivia_angry1
 
@@ -200,7 +200,7 @@ label pt1_battle:
                 $ party_damage = renpy.random.randint(2, 6)
                 "Your attack deals [party_damage] damage!"
 
-            "Create a shield for youself and your allies!" if main_element == 'earth' and special_cd == 0:
+            "Create a shield for yourself and your allies!" if main_element == 'earth' and special_cd == 0:
                 $ shield = 1
                 $ special_cd = 2
             
@@ -218,7 +218,7 @@ label pt1_battle:
                 "Your attack deals [party_damage] damage!"
                 $ special_cd = 2
 
-            "{color=#5ad9f9}Special Olivia{/color}: Healing abitilies or extra HP" if olivia_cd == 0:
+            "{color=#5ad9f9}Special Olivia{/color}: Healing abilities or extra HP" if olivia_cd == 0:
                 $ olivia_cd = 3
                 $ partyhp += 20
                 show olivia_angry1 at left_normal
@@ -255,11 +255,11 @@ label pt1_battle:
                 $ elements = ['earth', main_element, 'fire', 'water']
                 $ chosen = renpy.random.choice(elements)
 
-                "the creature begins to sintonize into one of the elements present in the battlefield"
+                "The creature begins to attune itself to one of the elements present in the battlefield"
                 "Take care using [chosen] for the next turn!"
                 if domain <= 2:
                     $ boss_special = 2
-                    "The domain enchance the effect! So take care for the next two turns!"
+                    "The domain enhance the effect! So take care for the next two turns!"
 
         if transformed == 1 and bosshp > 0:
             show rikumi_base1 at left_normal
@@ -281,7 +281,7 @@ label pt1_battle:
         "[chosenp] (dealing [aether_damage] at you and your allies!)"
 
         if shield == 1:
-            "But the shields protects TEAM B!" 
+            "But the shields protect TEAM B!" 
         
         $ shield = 0
 
@@ -296,7 +296,7 @@ label pt1_battle:
 
             c_rikumi "Test is over, you all fought well, it's time to join the battle."
 
-            "Rikumi rises stones shields around everyone."
+            "Rikumi raises stone shields around everyone."
             $ partyhp += 40
             $ shield = 1
 
@@ -343,7 +343,7 @@ label ending2:
 
     c_fred "I am sorry, pal. We didn't pass Reiko's test this time but at least we are alive."
 
-    player "It's okay, don't worry, we will have another chances."
+    player "It's okay, don't worry, we will have other chances."
 
     c_fred "I also think so, my late wife used to say that defeats only make future victories sweeter, so never surrender, pal."
 
@@ -367,7 +367,7 @@ label ending2:
 
     scene black_full
 
-    centered "Thanks for playing... maybe just reading this. I had plans to make it way longer and with multiples endings... but it didn't happen."
+    centered "Thanks for playing... maybe just reading this. I had plans to make it way longer and with multiple endings... but it didn't happen."
     centered "Still. Hope you enjoyed the story."
     centered "..."
     centered "..."
@@ -434,7 +434,7 @@ label ending1:
 
     "Kawara Norio" "Thank you, everyone! You all saved Sagamihara city!"
 
-    player "We are glad we managed to defeat the creature there. It was a honour to help the Engo-ji."
+    player "We are glad we managed to defeat the creature there. It was an honour to help the Engo-ji."
 
     scene plane2 with dissolve
 
@@ -445,7 +445,7 @@ label ending1:
     show rikumi_base2 at left_normal
 
     if score == 9:
-        c_rikumi "Despite the fact [player] was rude with the guard that time."
+        c_rikumi "Despite the fact that [player] was rude with the guard that time."
     
     c_rikumi "Of course. You all passed, even with Olivia doing some mistakes, she paid off in the end."
 
@@ -460,7 +460,7 @@ label ending1:
 
     scene black_full
 
-    centered "Thanks for playing... maybe just reading this. I had plans to make it way longer and with multiples endings... but it didn't happen."
+    centered "Thanks for playing... maybe just reading this. I had plans to make it way longer and with multiple endings... but it didn't happen."
     centered "Still. Hope you enjoyed the story."
     centered "..."
     centered "..."

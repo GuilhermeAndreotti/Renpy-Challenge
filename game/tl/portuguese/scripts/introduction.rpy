@@ -49,9 +49,9 @@ translate portuguese introduction_9fd30343:
     centered "Além disso, as pessoas daquela época descobriram algo mais."
 
 # game/scripts/introduction.rpy:31
-translate portuguese introduction_9514c448:
+translate portuguese introduction_6c605a7d:
 
-    # centered "{color=#0000ff}The elemental creatures, they need mana to survive. And the most natural way was through the conversion of the human soul.{/color}"
+    # centered "{color=#0000ff}The elemental creatures need mana to survive. And the most natural way was through the conversion of the human soul.{/color}"
     centered "{color=#0000ff}As criaturas elementais precisam de mana para sobreviver. E a maneira mais natural era através da conversão da alma humana.{/color}"
 
 # game/scripts/introduction.rpy:35
@@ -67,9 +67,9 @@ translate portuguese introduction_717a1b87:
     centered "Os Templos da Ruptura"
 
 # game/scripts/introduction.rpy:43
-translate portuguese introduction_c96cde4a:
+translate portuguese introduction_df468085:
 
-    # centered "A established network of sacred places in central locations around the planet, where these fissures converged. However, the temples could not be protected by incredible magic or anything, it was necessary that the only source of magic that existed in that place was the fissure itself."
+    # centered "An established network of sacred places in central locations around the planet, where these fissures converged. However, the temples could not be protected by incredible magic or anything, it was necessary that the only source of magic that existed in that place was the fissure itself."
     centered "Uma rede estabelecida de lugares sagrados em pontos centrais do planeta, onde essas fissuras convergiam. No entanto, os templos não podiam ser protegidos por magias poderosas ou encantamentos, era necessário que a única fonte de magia existente naquele local fosse a própria fissura."
 
 # game/scripts/introduction.rpy:45

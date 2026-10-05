@@ -13,15 +13,15 @@ translate portuguese news_raining_d2271103:
     "Ao contrário da multidão ao seu redor que segue para o trabalho, a chuva te pega desprevenido."
 
 # game/scripts/act1/streets.rpy:12
-translate portuguese news_raining_3e14d69d:
+translate portuguese news_raining_cc3b00e2:
 
-    # "To avoid the rain, you stop at small coffe store nearby."
+    # "To avoid the rain, you stop at small coffee store nearby."
     "Para se proteger da chuva, você para em uma pequena cafeteria próxima."
 
 # game/scripts/act1/streets.rpy:18
-translate portuguese news_raining_151f91ee:
+translate portuguese news_raining_1f874d7e:
 
-    # "After ordering a coffe, you think with yourself how you will avoid being late this time if the rain doesn't stop in the next 30 minutes."
+    # "After ordering a coffee, you think to yourself how you will avoid being late this time if the rain doesn't stop in the next 30 minutes."
     "Após pedir um café, você se pergunta como vai evitar se atrasar desta vez se a chuva não parar nos próximos 30 minutos."
 
 # game/scripts/act1/streets.rpy:20
@@ -37,9 +37,9 @@ translate portuguese news_raining_df0d041e:
     "Apresentador" "Ontem marcamos o último dia do evento do 36º aniversário do Guardian's Call! Uma das primeiras organizações a surgir e lutar contra as criaturas elementais que retornaram durante a Guerra Fria."
 
 # game/scripts/act1/streets.rpy:23
-translate portuguese news_raining_ce5112eb:
+translate portuguese news_raining_196b6bd9:
 
-    # "Presenter" "I remind you once again that if it weren't for Guardian Call, and all others organizations that was created to confront such atrocities, we wouldn't have lasted another year after the rifts were reopened and all the elemental danger returned to our world."
+    # "Presenter" "I remind you once again that if it weren't for Guardian Call, and all others organizations that were created to confront such atrocities, we wouldn't have lasted another year after the rifts were reopened and all the elemental danger returned to our world."
     "Apresentador" "Lembro a todos mais uma vez que se não fosse o Guardian Call, e todas as outras organizações criadas para enfrentar tais atrocidades, não teríamos sobrevivido mais um ano após as fissuras serem reabertas e todo o perigo elemental ter retornado ao nosso mundo."
 
 # game/scripts/act1/streets.rpy:24
@@ -49,21 +49,21 @@ translate portuguese news_raining_dcb8f755:
     "Apresentador" "Com os poderes das próprias criaturas, somos capazes de derrotar os monstros, mesmo após a destruição de todos os templos."
 
 # game/scripts/act1/streets.rpy:25
-translate portuguese news_raining_7517902b:
+translate portuguese news_raining_f02715a0:
 
-    # "Presenter" "If you get yourself in danger or spot any evil beast, remember to call the emergencial number. Members will come as fast as possible to aid you."
+    # "Presenter" "If you get yourself in danger or spot any evil beast, remember to call the emergency number. Members will come as fast as possible to aid you."
     "Apresentador" "Se você estiver em perigo ou avistar alguma criatura maligna, lembre-se de ligar para o número de emergência. Os membros virão o mais rápido possível para ajudá-lo."
 
 # game/scripts/act1/streets.rpy:29
-translate portuguese news_raining_abfc2758:
+translate portuguese news_raining_6eeae434:
 
-    # centered "You keep your attention on what comes next. It's a show with various elemental powers and in the middle of the stage is Abo, a famous japanese singer, which you like a lot. "
+    # centered "You keep your attention on what comes next. It's a show with various elemental powers and in the middle of the stage is Abo, a famous Japanese singer, whom you like a lot. "
     centered "Você mantém a atenção no que vem a seguir. É um show com vários poderes elementais e no centro do palco está Abo, uma famosa cantora japonesa que você gosta muito."
 
 # game/scripts/act1/streets.rpy:30
-translate portuguese news_raining_9fa54a1a:
+translate portuguese news_raining_91543ff3:
 
-    # centered "The music in fact reminds you about a Japanese person you see almost every day, in this case, your very own boss, Reiko Rikumi. The one who offered you a position as an elemental hunter internship inside Guardian Call HQ when she discovered your affinity for elemental powers."
+    # centered "The music in fact reminds you about a Japanese person you see almost every day, in this case, your very own boss, Reiko Rikumi. The one who offered you a position as an elemental hunter intern inside Guardian Call HQ when she discovered your affinity for elemental powers."
     centered "A música na verdade te lembra de uma pessoa japonesa que você vê quase todos os dias, no caso, sua própria chefe, Reiko Rikumi. A mesma que lhe ofereceu uma vaga como estagiário caçador elemental na sede do Guardian Call quando descobriu sua afinidade com os poderes elementais."
 
 # game/scripts/act1/streets.rpy:38
@@ -79,9 +79,9 @@ translate portuguese news_raining_747e6a14:
     player "Reiko! Desculpe! Pensei em voz alta sem perceber."
 
 # game/scripts/act1/streets.rpy:41
-translate portuguese news_raining_8f282366:
+translate portuguese news_raining_988ce002:
 
-    # c_rikumi "Don't worry. I like some compliment."
+    # c_rikumi "Don't worry. I like a compliment."
     c_rikumi "Não se preocupe. Gosto de um elogio."
 
 # game/scripts/act1/streets.rpy:44
@@ -97,9 +97,9 @@ translate portuguese news_raining_eded8066:
     player "Me desculpe, senhorita Reiko! Por favor, esqueça o que disse."
 
 # game/scripts/act1/streets.rpy:48
-translate portuguese news_raining_328f52b0:
+translate portuguese news_raining_f526f8c9:
 
-    # c_rikumi "Don't worry. I like listening to my employees feedbacks"
+    # c_rikumi "Don't worry. I like listening to my employees' feedback"
     c_rikumi "Não se preocupe. Gosto de ouvir o feedback dos meus funcionários."
 
 # game/scripts/act1/streets.rpy:51
@@ -115,9 +115,9 @@ translate portuguese news_raining_51ece4c3:
     c_rikumi "Oh. Já são 13h32. Vejo que está um pouco atrasado. Aconteceu algo?"
 
 # game/scripts/act1/streets.rpy:63
-translate portuguese news_raining_1041b61a:
+translate portuguese news_raining_bf20cd15:
 
-    # player "Well... The skies was so beautiful this morning that raining never crossed my mind, sorry."
+    # player "Well... The sky was so beautiful this morning that raining never crossed my mind, sorry."
     player "Bem... O céu estava tão bonito esta manhã que nem pensei que pudesse chover, desculpe."
 
 # game/scripts/act1/streets.rpy:65
@@ -127,9 +127,9 @@ translate portuguese news_raining_e7a45614:
     c_rikumi "Como é a primeira vez que se atrasa, vou deixar passar."
 
 # game/scripts/act1/streets.rpy:70
-translate portuguese news_raining_852ac17f:
+translate portuguese news_raining_d07992b4:
 
-    # c_rikumi "Come with me, I can give you a ride. Just let me grab a coffe and here, take this umbrella for you, it's a gift."
+    # c_rikumi "Come with me, I can give you a ride. Just let me grab a coffee and here, take this umbrella for you, it's a gift."
     c_rikumi "Venha comigo, posso te dar uma carona. Só deixa eu pegar um café e, aqui, leve este guarda-chuva, é um presente."
 
 # game/scripts/act1/streets.rpy:74
@@ -145,15 +145,15 @@ translate portuguese news_raining_ef6b8739:
     c_rikumi "Meu carro está ali."
 
 # game/scripts/act1/streets.rpy:84
-translate portuguese news_raining_db938a35:
+translate portuguese news_raining_a857d010:
 
-    # c_rikumi "Let's see if those two didn't destroy anything. It turns into a mess evertime they are alone."
+    # c_rikumi "Let's see if those two didn't destroy anything. It turns into a mess every time they are alone."
     c_rikumi "Vamos ver se aqueles dois não destruíram nada. Vira uma bagunça toda vez que ficam sozinhos."
 
 # game/scripts/act1/streets.rpy:88
-translate portuguese news_raining_277cd2b7:
+translate portuguese news_raining_dc4f032d:
 
-    # c_rikumi "Oh.. Just to spoiler you a little, today you will be having your first RANK A mission."
+    # c_rikumi "Oh.. Just to spoil it for you a little, today you will be having your first RANK A mission."
     c_rikumi "Ah... Só para adiantar um pouco, hoje você terá sua primeira missão RANK A."
 
 # game/scripts/act1/streets.rpy:106
@@ -169,9 +169,9 @@ translate portuguese news_raining_d670ec9d:
     centered "No entanto, o silêncio ainda é desconfortável. Mas é rapidamente interrompido por uma pergunta da sua chefe."
 
 # game/scripts/act1/streets.rpy:112
-translate portuguese news_raining_06999106:
+translate portuguese news_raining_4f51c0ac:
 
-    # c_rikumi "So, we still didn't discover your main affinity and on your last mission, you were using a fire amulet, but my question is, do you have any element that interest you more?"
+    # c_rikumi "So, we still haven't discovered your main affinity, and on your last mission, you were using a fire amulet, but my question is, do you have any element that interests you more?"
     c_rikumi "Bom, ainda não descobrimos sua principal afinidade e na sua última missão você estava usando um amuleto de fogo. Mas minha pergunta é: existe algum elemento que te interessa mais?"
 
 # game/scripts/act1/streets.rpy:117
@@ -181,9 +181,9 @@ translate portuguese news_raining_92a45d2f:
     c_rikumi "Sério? Então o senhor Frederick pode te ensinar algumas coisas."
 
 # game/scripts/act1/streets.rpy:121
-translate portuguese news_raining_cd3dd4a6:
+translate portuguese news_raining_c84cf06e:
 
-    # c_rikumi "Earth can be both defensive and offensive, if that is your choice, myself can teach you a few tricks after the mission."
+    # c_rikumi "Earth can be both defensive and offensive, if that is your choice, I can teach you a few tricks after the mission."
     c_rikumi "A terra pode ser tanto defensiva quanto ofensiva. Se essa for a sua escolha, eu mesma posso te ensinar alguns truques após a missão."
 
 # game/scripts/act1/streets.rpy:125
@@ -227,7 +227,7 @@ translate portuguese strings:
     new "Reiko é bem séria, às vezes sinto medo."
 
     # game/scripts/act1/streets.rpy:50
-    old "It's time to go... Avoiding being late is not a option anymore."
+    old "It's time to go... Avoiding being late is not an option anymore."
     new "Está na hora de ir... Evitar o atraso não é mais uma opção."
 
     # game/scripts/act1/streets.rpy:115
@@ -235,7 +235,7 @@ translate portuguese strings:
     new "Eu realmente gostei do fogo, então sim. Escolheria novamente."
 
     # game/scripts/act1/streets.rpy:119
-    old "To be honest, I would like to try Earth. I kinda a fan of Toph myself."
+    old "To be honest, I would like to try Earth. I'm kind of a fan of Toph myself."
     new "Para ser honesto, gostaria de tentar a Terra. Sou fã da Toph."
 
     # game/scripts/act1/streets.rpy:123

@@ -67,7 +67,7 @@ label path_save:
 
     c_fred "I would say we're only together because Reiko defeated one of the three in time."
 
-    c_fred "I was beliving she would have done something more to help, but she is really testing us, even with these out of the blue attacks."
+    c_fred "I was believing she would have done something more to help, but she is really testing us, even with these out of the blue attacks."
 
     player "Let's go back to that place."
 
@@ -80,7 +80,7 @@ label path_save:
     show earthvending at size_normal
     show watervending at right_normal
 
-    c_fred "Guess they dont want to play hide and seek since what happened. Be ready! We have a battle incoming!"
+    c_fred "Guess they don't want to play hide and seek since what happened. Be ready! We have a battle incoming!"
 
     "Frederick grabs his red katana, getting ready for this battle."
 
@@ -114,7 +114,7 @@ label battle_1_loop:
 
     while (party > 0) and ((hpearth > 0) or (hpfire > 0) or (hpwater > 0)):    
         menu:
-            "Atack the fire creature with your [main_element]!" if hpfire > 0:
+            "Attack the fire creature with your [main_element]!" if hpfire > 0:
                 "With your [main_element] spellcaster abilities, you cast a magical sphere towards the enemy!"
 
                 if shield == 1 and hpfire > 0:
@@ -148,7 +148,7 @@ label battle_1_loop:
                 if main_element == 'air':
                     "You use the wind around you to create a barrier for both you and Fred!"
                 else:
-                    "You heal yourself and Fred! Dispite not liking to use water that way."   
+                    "You heal yourself and Fred! Despite not liking to use water that way."   
                 $ party += 5
                              
             "Use your knowledge you learned before and attack its weak spots!" if success == 1 and hpearth > 0 and hpfire > 0 and hpwater > 0:
@@ -167,7 +167,7 @@ label battle_1_loop:
             $ earth_damage = 1
         
         if water_damage == 2 and hpwater > 0:
-            "The water elemental heals everyone, expect its enemy, he is not that dumb. But he is happy, in fact."
+            "The water elemental heals everyone, except its enemy, he is not that dumb. But he is happy, in fact."
             if hpfire > 0 and hpfire < 15:
                 $ hpfire += renpy.random.randint(1, 4)
             if hpearth > 0 and hpearth < 20:
@@ -177,7 +177,7 @@ label battle_1_loop:
         $ party -= earth_damage
         $ party -= water_damage
         
-        "Rrrrrrrrr! {i}*They attacks you*{/i} (damage dealt - [fire_damage + earth_damage + water_damage]hp)"
+        "Rrrrrrrrr! {i}*They attack you*{/i} (damage dealt - [fire_damage + earth_damage + water_damage]hp)"
    
         $ hpearth -= renpy.random.randint(4, 6)
         $ hpfire -= 0 if shield == 1 else renpy.random.randint(1, 4)
@@ -202,7 +202,7 @@ label battle_1_loop:
             jump continue_story
         
         if party <= 0:
-            "It was suppossed to be impossible to reach this place, congrats."
+            "It was supposed to be impossible to reach this place, congrats."
             c_fred "Damn!"
             play sound explosion volume 0.2
             play sound slash volume 0.3
@@ -235,8 +235,8 @@ label special_event:
 
     show frederick_base1 at size_normal
 
-    c_fred "My Friend! That was impressive! No kidding! The moment I noticed what you did, I tried following your plan."
-    c_fred "It worked perfectly and we defeat them easily. You remembered the boss lesson!"
+    c_fred "My friend! That was impressive! No kidding! The moment I noticed what you did, I tried following your plan."
+    c_fred "It worked perfectly and we defeated them easily. You remembered the boss lesson!"
 
     jump continue_story
     
@@ -251,10 +251,10 @@ label continue_story:
     if fred_used == 1:
         c_fred "On the way, we must find everyone."
     else:
-        c_fred "You are way stronger than the last mission, let's go eat something here in Japan after the mission to celebrate, Olivia may like japanese food."
+        c_fred "You are way stronger than the last mission, let's go eat something here in Japan after the mission to celebrate, Olivia may like Japanese food."
         player "Thank you! Let's keep going, we must find Olivia and Reiko."
 
-    c_fred "Let's keep this following this path. It's like the only way."
+    c_fred "Let's keep following this path. It's like the only way."
 
     scene black_full with dissolve
     scene park2
@@ -263,9 +263,9 @@ label continue_story:
     show firevending at left_normal
     show watervending at size_normal
 
-    c_fred "I can't even get something to drink and they attack us! Goddman!"
+    c_fred "I can't even get something to drink and they attack us! Goddamn!"
 
-    c_fred "Die you all, I hate this freaking creatures."
+    c_fred "Die you all, I hate these freaking creatures."
     
     play sound slash volume 1
 
@@ -279,7 +279,7 @@ label continue_story:
 
     c_fred "Phew... That was the last one."
 
-    c_fred "I was expecting something more in the investigative to be honest. Look."
+    c_fred "I was expecting something more investigative to be honest. Look."
 
     scene entrance with dissolve
 
@@ -341,7 +341,7 @@ label continue_story:
 
     show frederick_base2 at left_normal
 
-    c_fred "Common not here, even I was worried about you."
+    c_fred "Come on, not here, even I was worried about you."
 
     c_olivia "Fine... boss is judging me by her eyes, so okay."
 
@@ -393,7 +393,7 @@ label continue_story:
     elif main_element == 'earth':
         show firevending at size_normal
         show pernalonga at item
-        "You envelops your hands in stone and attack the creature!"
+        "You envelop your hands in stone and attack the creature!"
     elif main_element == 'air':
         show firevending at size_normal
         show ligeiro at item
@@ -401,7 +401,7 @@ label continue_story:
     elif main_element == 'water':
         show earthvending at size_normal
         show piupiu at item
-        "You cast several ray of frost until the earth elemental dies."
+        "You cast several rays of frost until the earth elemental dies."
 
     scene black_full
 
@@ -445,13 +445,13 @@ label continue_story:
 
     show frederick_base2 at size_normal
 
-    c_fred "I got it. Since Olivia is a well strong water elemental by its core."
+    c_fred "I got it. Since Olivia is a really strong water elemental by its core."
 
     c_fred "The aether creature wanted this energy as quickly as possible, so it made it easier to extract it."
 
     c_fred "Since aether elementals can consume both souls and elemental magic to survive."
 
-    c_fred "Still I can't understand why others creatures are obeing this alpha one. Since I am quite sure we are not facing smarts elementals who can talk."
+    c_fred "Still I can't understand why others creatures are obeying this alpha one. Since I am quite sure we are not facing smart elementals who can talk."
 
     hide frederick_base2
     show rikumi_base2 at size_normal

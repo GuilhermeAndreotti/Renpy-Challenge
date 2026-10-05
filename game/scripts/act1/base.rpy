@@ -47,12 +47,12 @@ label base:
 
     show olivia_angry1 at size_normal
 
-    "???" "BOSS! It's not my fault! HE STOLE MY DELICIOUS LEMON TASTED WATER!!"
+    "???" "BOSS! It's not my fault! HE STOLE MY DELICIOUS LEMON-FLAVORED WATER!!"
 
     hide olivia_angry1
     show frederick_base2 at size_normal
 
-    "???" "I DID NOT! Your freaking water elemental! I took your bottle out of the refrigerator to get my food but you attacked me the moment I took it out! Damn."
+    "???" "I DID NOT! You freaking water elemental! I took your bottle out of the refrigerator to get my food but you attacked me the moment I took it out! Damn."
 
     hide frederick_base2
 
@@ -64,12 +64,12 @@ label base:
 
     hide frederick_base1
     show olivia_base2 at size_normal
-    c_olivia "LOW RANK HUMAN. Kill this person while he sleeps, It's a order from your superior."
+    c_olivia "LOW RANK HUMAN. Kill this person while he sleeps, It's an order from your superior."
 
     hide olivia_base2
     show rikumi_base1 at size_normal
 
-    c_rikumi "So, everyone, time to stop. I need you all to pay attettion to me. The HQ sent us a new mission, in fact, the first outside United Kingdom."
+    c_rikumi "So, everyone, time to stop. I need you all to pay attention to me. The HQ sent us a new mission, in fact, the first outside the United Kingdom."
 
     player "Outside?"
 
@@ -103,7 +103,7 @@ label base:
 
     c_rikumi "[player], choose either Frederick or Olivia to go with you and buy me an iced coffee at the entrance with this money. Make sure to use the drink-only vending machine. After that, I want the group to tell me one characteristic of the vending machine."
 
-    c_rikumi "The other one will help me getting the amulets."
+    c_rikumi "The other one will help me get the amulets."
 
     hide rikumi_base2
     show olivia_base2 at size_normal
@@ -140,9 +140,9 @@ label mission:
 
     show rikumi_base2 at size_normal
 
-    c_rikumi "Wellcome back, we already selected the amulets for this mission, what about you two?"
+    c_rikumi "Welcome back, we already selected the amulets for this mission, what about you two?"
 
-    player "Here your iced coffe, Miss Reiko."
+    player "Here is your iced coffee, Miss Reiko."
 
     hide rikumi_base2
     show rikumi_base1 at size_normal
@@ -151,7 +151,7 @@ label mission:
 
     if path == 'Fred':
         show frederick_base1 at left_normal
-        c_fred "Huh. You asked for the iced coffe.. so..."
+        c_fred "Huh. You asked for the iced coffee.. so..."
         menu:
             "Fred and I noticed the [keyword_fred] types of vending machines. It can be even further than just the two we saw. But they all share the money part in common.":
                 $ success = 1
@@ -184,7 +184,7 @@ label mission:
     scene training1 
     show rikumi_base1 at size_normal
 
-    c_rikumi "Well. I asked this because the place we are going in Japan is Sagamihara's city. Specially the Sagamihara Retoro Jihanki, which translates for Sagamihara Vending Machine Park."
+    c_rikumi "Well. I asked this because the place we are going in Japan is the city of Sagamihara. Especially the Sagamihara Retoro Jihanki, which translates to Sagamihara Vending Machine Park."
     c_rikumi "Recently, locals have begun to disappear after visiting the park, with some being found either very weak or even near death."
     c_rikumi "The police closed the area, and some hunters from Engo-ji noticed elemental traces of almost every kind, like earth, water, lightning, air and even..."
 
@@ -203,7 +203,7 @@ label mission:
     hide rikumi_serious2
     show rikumi_base1 at size_normal
 
-    c_rikumi "Team A was supposed to get this mission completly but after some events, the mission fell into our hands with Team A being there if necessary."
+    c_rikumi "Team A was supposed to get this mission completely but after some events, the mission fell into our hands with Team A being there if necessary."
 
     hide rikumi_base1
     show rikumi_serious2 at size_normal
@@ -212,11 +212,11 @@ label mission:
 
     hide rikumi_serious2
     show frederick_base2 at size_normal
-    c_fred "You said all the inforamtion and that it's happening inside that park, but my question is, where are the elementals in that park? Don't tell me..."
+    c_fred "You said all the information and that it's happening inside that park, but my question is, where are the elementals in that park? Don't tell me..."
 
     hide frederick_base2
     show rikumi_base2 at size_normal
-    c_rikumi "Yes. Mostly possed the vending machines there. And since the place gained new vending machines corridors after 2024, it's not that small anymore."
+    c_rikumi "Yes. Mostly possessed the vending machines there. And since the place gained new vending machines corridors after 2024, it's not that small anymore."
 
     player "Am I really included for this mission, boss? I can't even fight that well. Both Olivia and Fred are way stronger than me."
 
@@ -247,7 +247,7 @@ label mission:
     hide patolino
     hide rikumi_base2
     show rikumi_serious2 at size_normal
-    c_rikumi "And I must advice you, Mister Frederick. Just use your white katana as a last resource."
+    c_rikumi "And I must advise you, Mister Frederick. Just use your white katana as a last resource."
     c_fred "Aye captain, I know that well."
 
     scene training1 
@@ -265,7 +265,7 @@ label mission:
     elif main_element == 'water':
         show piupiu at item
 
-    c_rikumi "A amulet related with the [main_element]. Hope you use it well."
+    c_rikumi "An amulet related with the [main_element]. Hope you use it well."
 
     player "I am glad Miss Reiko. I will try my best!"
 
